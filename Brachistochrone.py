@@ -21,28 +21,43 @@ Ricardo Lopes
 Rui Chicória
 """
 
-def cria_individuo(y1, y2, ngenes):
-	individuo = [y1]
+def grafico(curva):
+	x = []
+	y = []
+	
+	for i in xrange(0, len(curva), 2):
+		x.append(curva[i])
+		y.append(curva[i+1])
+	
+	plot(x, y)
+	show()
+
+def cria_individuo(x1, y1, x2, y2, ngenes):
+	individuo = [x1, y1]
 	for i in xrange(ngenes-2):
+		individuo.append((x1+((x2-x1)*(float(i+1)/(ngenes-1)))))
 		individuo.append(uniform(0, y1))
+	individuo.append(x2)
 	individuo.append(y2)
 	return [individuo, 0]
 
-def cria_populacao(y1, y2, nindividuos, ngenes):
-	return [cria_individuo(y1, y2, ngenes) for i in xrange(nindividuos)]
+def cria_populacao(x1, y1, x2, y2, nindividuos, ngenes):
+	return [cria_individuo(x1, y1, x2, y2, ngenes) for i in xrange(nindividuos)]
 
 def cria_eixo_x(x1, x2, ngenes):
-	print ">>>>", (1.0/ngenes), "   ", ngenes
 	return [(x1+((x2-x1)*(float(i)/(ngenes-1)))) for i in xrange(ngenes)]
 
 def sga(x1, y1, x2, y2, ngeracoes, nindividuos, ngenes, seleccao_pais, fitness, mutacao,
 		seleccao_sobreviventes, tamanho_torneio, prob_mutacao, tamanho_elite, tamanho_mutacao):
-	# criar população inicial
-	populacao = cria_populacao(y1, y2, nindividuos, ngenes)
-	eixo_x = cria_eixo_x(x1, x2, ngenes)
+		
+	# cria a população
+	populacao = cria_populacao(x1, y1, x2, y2, nindividuos, ngenes)
+	# avalia a população
+	populacao = [[individuo[0], calcBrachTime(individuo[0])] for individuo in populacao]
+	# continua...
+	
 	# só merda a partir daqui
-	plot(eixo_x, populacao[0][0])
-	show()
+	grafico(populacao[0][0])
 	return True
 
 if __name__ == '__main__':
