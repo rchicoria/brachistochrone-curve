@@ -44,15 +44,37 @@ def cria_individuo(x1, y1, x2, y2, ngenes):
 	individuo.append(y2)
 	return [individuo, 0]
 
-# cria uma população com o número de indivíduos exigido
-def cria_populacao(x1, y1, x2, y2, nindividuos, ngenes):
-	return [cria_individuo(x1, y1, x2, y2, ngenes) for i in xrange(nindividuos)]
-
 # selecciona os progenitores de uma dada geração através do método de torneio
 def seleccao_torneio(populacao, tamanho_torneio):
     torneio = sample(populacao, tamanho_torneio)
     torneio.sort(key=itemgetter(1))
     return torneio[0]
+
+# selecciona os progenitores de uma dada geração através do método da roleta
+def seleccao_roleta(populacao):
+	roleta = [0 for i in xrange(len(populacao))]
+	total = 0
+	for i in xrange(len(populacao)):
+		total += populacao[i][1]
+		roleta[i] = total
+	resultado = uniform(0, total)
+	for i in xrange(len(populacao)):
+		if roleta[i] > resultado:
+			return populacao[i]
+
+# cria novos descendentes através do método de recombinação de genes
+def recombinacao(nrecombinacao, progenitor1, progenitor2):
+    pontos = [choice(xrange(len(progenitor1))) for i in xrange(nrecombinacao)]
+    pontos.sort()
+    descendente1 = progenitor1[:pontos[0]]
+    descendente2 = progenitor2[:pontos[0]]
+    for i in xrange(len(pontos)-1):
+    	progenitor1, progenitor2 = progenitor2, progenitor1
+    	descendente1.extend(progenitor1[pontos[i]:pontos[i+1]])
+    	descendente2.extend(progenitor2[pontos[i]:pontos[i+1]])
+    descendente1.extend(progenitor2[pontos[-1]:])
+    descendente2.extend(progenitor1[pontos[-1]:])
+    return [[descendente1, 0], [descendente2, 0]]
 
 # cria novos descendentes através do método de mutação de genes
 def mutacao(individuo,y1):
@@ -96,31 +118,47 @@ if __name__ == '__main__':
 	
 	# outras variáveis
 	tamanho_torneio = 3
-	prob_crossover = 0.3
-	prob_mutacao = 0.5
+	nrecombinacao = 5
+	prob_recombinacao = 0.6
+	prob_mutacao = 0.1
 	tamanho_elite = 0.3
 	
 	# faz os cálculos
+	
+	
 	# cria a população
-	populacao = cria_populacao(x1, y1, x2, y2, nindividuos, ngenes)
+	populacao = [cria_individuo(x1, y1, x2, y2, ngenes) for i in xrange(nindividuos)]
+	
 	# avalia a população
 	populacao = [[individuo[0], calcBrachTime(individuo[0])] for individuo in populacao]
+	
 	for geracao in xrange(ngeracoes):
+	
 		# selecciona os progenitores
-		progenitores = [seleccao_torneio(populacao, tamanho_torneio) for i in xrange(nindividuos)]
+		progenitores = [seleccao_roleta(populacao) for i in xrange(nindividuos)]
+		
 		# cria descendentes
 		descendentes = []
-		# para já, apenas permite por mutação
+		
+		# por recombinação
+		for i in xrange(0, nindividuos, 2):
+			if random() < prob_recombinacao:
+				descendentes.extend(recombinacao(nrecombinacao, progenitores[i][0], progenitores[i+1][0]))
+			else:
+				descendentes.extend([progenitores[i], progenitores[i+1]])
+				
+		# por mutação
 		for i in xrange(nindividuos):
 			if random() < prob_mutacao:
-				descendentes.append(mutacao(progenitores[i],y1))
-			else:
-				descendentes.append(progenitores[i])
+				descendentes[i] = mutacao(descendentes[i],y1)
+				
 		# avalia os descendentes
 		descendentes = [[individuo[0], calcBrachTime(individuo[0])] for individuo in descendentes]
 		descendentes.sort(key=itemgetter(1))
+		
 		# selecciona sobreviventes
 		populacao = elitismo(populacao, descendentes, tamanho_elite)
 		populacao.sort(key=itemgetter(1))
 		sys.stdout.write( "Melhor descendente da geração %d: %f\n" % (geracao, populacao[0][1]) )
+		
 	grafico(populacao[0][0])

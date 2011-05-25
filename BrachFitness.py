@@ -38,7 +38,7 @@ def calcBrachTime(indiv, debug = False):
 	for i in range(2, len(indiv), 2):
 		#Consistency checking. This wasn't done in a separate function for quickness
 		if(indiv[i] <= x_i):
-			print indiv[i], x_i, i
+			print "Erro: ", indiv[i], x_i, i
 			return -1
 		if(indiv[i+1] >= maxHeight):
 			return -1
