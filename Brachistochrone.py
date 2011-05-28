@@ -7,6 +7,7 @@ from random import uniform, sample, random, choice
 from operator import itemgetter
 from math import sqrt
 from time import strftime
+import re
 
 """
 Trabalho Prático Nº2: Curva Braquistócrona
@@ -35,6 +36,16 @@ def grafico(curva):
 	
 	plot(x, y)
 	show()
+
+# mostra uma percentagem com base num número decimal
+def percentagem(numero):
+	numero = numero * 100
+	string = "%f" % (numero)
+	novo = re.split("0+$", string)
+	if novo[0][-1] == ".":
+		return novo[0][:-1] + "%"
+	else:
+		return novo[0] + "%"
 
 # cria um indivíduo de acordo com as regras exigidas
 def cria_individuo(x1, y1, x2, y2, ngenes):
@@ -98,32 +109,56 @@ def elitismo(populacao, descendentes, tamanho_elite):
 
 if __name__ == '__main__':
 
-	# ponto 1
-	sys.stdout.write("x1 y1 = ");
-	x1, y1 = map(int, sys.stdin.readline().split())
-	
-	# ponto 2
-	sys.stdout.write("x2 y2 = ");
-	x2, y2 = map(int, sys.stdin.readline().split())
-	
-	# número de gerações
-	sys.stdout.write("Número de gerações = ");
-	ngeracoes = int(sys.stdin.readline())
-	
-	# número de indivíduos
-	sys.stdout.write("Número de indivíduos = ");
-	nindividuos = int(sys.stdin.readline())
-	
-	# número de genes
-	sys.stdout.write("Número de genes = ");
-	ngenes = int(sys.stdin.readline())
-	
-	# outras variáveis
+	# pré-definições
+	x1 = 1
+	y1 = 5
+	x2 = 4
+	y2 = 2
+	ngeracoes = 10000
+	nindividuos = 50
+	ngenes = 50
 	tamanho_torneio = 3
 	nrecombinacao = 5
 	prob_recombinacao = 0.6
 	prob_mutacao = 0.1
 	tamanho_elite = 0.3
+
+	# carrega as configurações
+	try:
+		f = open("conf.txt", "r")
+		linhas = f.readlines()
+		x1 = int(linhas[3].split("(")[1].split(",")[0].strip())
+		y1 = int(linhas[3].split(",")[1].split(")")[0].strip())
+		x2 = int(linhas[4].split("(")[1].split(",")[0].strip())
+		y2 = int(linhas[4].split(",")[1].split(")")[0].strip())
+		ngeracoes = int(linhas[5].split("=")[1].strip())
+		nindividuos = int(linhas[6].split("=")[1].strip())
+		ngenes = int(linhas[7].split("=")[1].strip())
+		tamanho_torneio = int(linhas[8].split("=")[1].strip())
+		nrecombinacao = int(linhas[9].split("=")[1].strip())
+		prob_recombinacao = float(linhas[10].split("=")[1].split("%")[0].strip())/100
+		print prob_recombinacao
+		prob_mutacao = float(linhas[11].split("=")[1].split("%")[0].strip())/100
+		print prob_mutacao
+		tamanho_elite = float(linhas[12].split("=")[1].split("%")[0].strip())/100
+		print tamanho_elite
+	except:
+		sys.stdout.write("O ficheiro de configuração não existe ou está corrompido. Foi gerado um novo ficheiro com as configurações pré-definidas\n")
+		f = open("conf.txt", "w")
+		f.write("Trabalho Prático Nº2: Curva Braquistócrona\n")
+		f.write("Ficheiro de configuração\n\n")
+		f.write("Ponto A = (%d,%d)\n" % (x1, y1))
+		f.write("Ponto B = (%d,%d)\n" % (x2, y2))
+		f.write("Número de gerações = %d\n" % (ngeracoes))
+		f.write("Número de indivíduos = %d\n" % (nindividuos))
+		f.write("Número de genes = %d\n" % (ngenes))
+		f.write("Tamanho do torneio = %d\n" % (tamanho_torneio))
+		f.write("Número de pontos de recombinação = %d\n" % (nrecombinacao))
+		f.write("Probabilidade de recombinação = %s\n" % (percentagem(prob_recombinacao)))
+		f.write("Probabilidade de mutação = %s\n" % (percentagem(prob_mutacao)))
+		f.write("Tamanho da elite = %s\n" % (percentagem(tamanho_elite)))
+	
+	f.close()
 	
 	# prepara ficheiro de output
 	data = strftime("%d-%m-%Y - %H:%M:%S")
@@ -134,6 +169,11 @@ if __name__ == '__main__':
 	output.append("Número de gerações = %d\n" % (ngeracoes))
 	output.append("Número de indivíduos = %d\n" % (nindividuos))
 	output.append("Número de genes = %d\n" % (ngenes))
+	output.append("Tamanho do torneio = %d\n" % (tamanho_torneio))
+	output.append("Número de pontos de recombinação = %d\n" % (nrecombinacao))
+	output.append("Probabilidade de recombinação = %s\n" % (percentagem(prob_recombinacao)))
+	output.append("Probabilidade de mutação = %s\n" % (percentagem(prob_mutacao)))
+	output.append("Tamanho da elite = %s\n" % (percentagem(tamanho_elite)))
 	output.append("\nResultados:\n")
 	
 	# faz os cálculos
@@ -192,6 +232,6 @@ if __name__ == '__main__':
 	output.append( "Número de mutações: %d\n" % (nmutacoes) )
 	
 	# guarda os resultados num ficheiro
-	ficheiro = open(data+".txt", "w")
-	ficheiro.writelines(output)
-	ficheiro.close()
+	f = open(data+".txt", "w")
+	f.writelines(output)
+	f.close()
