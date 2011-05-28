@@ -5,6 +5,7 @@ import sys
 from matplotlib.pyplot import plot, show
 from random import uniform, sample, random, choice
 from operator import itemgetter
+from math import sqrt
 
 """
 Trabalho Prático Nº2: Curva Braquistócrona
@@ -124,6 +125,8 @@ if __name__ == '__main__':
 	tamanho_elite = 0.3
 	
 	# faz os cálculos
+	nrecombinacoes = 0
+	nmutacoes = 0
 	
 	
 	# cria a população
@@ -144,6 +147,7 @@ if __name__ == '__main__':
 		for i in xrange(0, nindividuos, 2):
 			if random() < prob_recombinacao:
 				descendentes.extend(recombinacao(nrecombinacao, progenitores[i][0], progenitores[i+1][0]))
+				nrecombinacoes += 2
 			else:
 				descendentes.extend([progenitores[i], progenitores[i+1]])
 				
@@ -151,6 +155,7 @@ if __name__ == '__main__':
 		for i in xrange(nindividuos):
 			if random() < prob_mutacao:
 				descendentes[i] = mutacao(descendentes[i],y1)
+				nmutacoes += 1
 				
 		# avalia os descendentes
 		descendentes = [[individuo[0], calcBrachTime(individuo[0])] for individuo in descendentes]
@@ -159,6 +164,18 @@ if __name__ == '__main__':
 		# selecciona sobreviventes
 		populacao = elitismo(populacao, descendentes, tamanho_elite)
 		populacao.sort(key=itemgetter(1))
-		sys.stdout.write( "Melhor descendente da geração %d: %f\n" % (geracao, populacao[0][1]) )
+		
+		# mostra dados sobre a população na presente geração
+		valores = [individuo[1] for individuo in populacao]
+		media = sum(valores)/len(valores)
+		valores_dp = [(valor-media)*(valor-media) for valor in valores]
+		dp = sqrt(sum(valores_dp)/len(valores_dp))
+		sys.stdout.write( "Geração %d\n" % (geracao+1) )
+		sys.stdout.write( "Melhor descendente: %f\n" % (valores[0]) )
+		sys.stdout.write( "Pior descendente: %f\n" % (valores[-1]) )
+		sys.stdout.write( "Aptidão média: %f\n" % (media) )
+		sys.stdout.write( "Desvio padrão: %f\n" % (dp) )
 		
 	grafico(populacao[0][0])
+	sys.stdout.write( "Número de recombinações: %d\n" % (nrecombinacoes) )
+	sys.stdout.write( "Número de mutações: %d\n" % (nmutacoes) )
