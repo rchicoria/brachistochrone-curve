@@ -137,15 +137,12 @@ if __name__ == '__main__':
 		tamanho_torneio = int(linhas[8].split("=")[1].strip())
 		nrecombinacao = int(linhas[9].split("=")[1].strip())
 		prob_recombinacao = float(linhas[10].split("=")[1].split("%")[0].strip())/100
-		print prob_recombinacao
 		prob_mutacao = float(linhas[11].split("=")[1].split("%")[0].strip())/100
-		print prob_mutacao
 		tamanho_elite = float(linhas[12].split("=")[1].split("%")[0].strip())/100
-		print tamanho_elite
 	except:
 		sys.stdout.write("O ficheiro de configuração não existe ou está corrompido. Foi gerado um novo ficheiro com as configurações pré-definidas\n")
 		f = open("conf.txt", "w")
-		f.write("Trabalho Prático Nº2: Curva Braquistócrona\n")
+		f.write("\nTrabalho Prático Nº2: Curva Braquistócrona\n")
 		f.write("Ficheiro de configuração\n\n")
 		f.write("Ponto A = (%d,%d)\n" % (x1, y1))
 		f.write("Ponto B = (%d,%d)\n" % (x2, y2))
@@ -157,7 +154,11 @@ if __name__ == '__main__':
 		f.write("Probabilidade de recombinação = %s\n" % (percentagem(prob_recombinacao)))
 		f.write("Probabilidade de mutação = %s\n" % (percentagem(prob_mutacao)))
 		f.write("Tamanho da elite = %s\n" % (percentagem(tamanho_elite)))
+		f.close()
+		f = open("conf.txt", "r")
 	
+	f.seek(0)
+	sys.stdout.write(f.read())
 	f.close()
 	
 	# prepara ficheiro de output
