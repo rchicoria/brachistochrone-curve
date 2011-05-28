@@ -6,6 +6,7 @@ from matplotlib.pyplot import plot, show
 from random import uniform, sample, random, choice
 from operator import itemgetter
 from math import sqrt
+from time import strftime
 
 """
 Trabalho Prático Nº2: Curva Braquistócrona
@@ -124,10 +125,20 @@ if __name__ == '__main__':
 	prob_mutacao = 0.1
 	tamanho_elite = 0.3
 	
+	# prepara ficheiro de output
+	data = strftime("%d-%m-%Y - %H:%M:%S")
+	output = ["\nResultados do teste ocorrido a %s:\n" % (data)]
+	output.append("\nDados:\n")
+	output.append("ponto A = (%d,%d)\n" % (x1, y1))
+	output.append("ponto B = (%d,%d)\n" % (x2, y2))
+	output.append("Número de gerações = %d\n" % (ngeracoes))
+	output.append("Número de indivíduos = %d\n" % (nindividuos))
+	output.append("Número de genes = %d\n" % (ngenes))
+	output.append("\nResultados:\n")
+	
 	# faz os cálculos
 	nrecombinacoes = 0
 	nmutacoes = 0
-	
 	
 	# cria a população
 	populacao = [cria_individuo(x1, y1, x2, y2, ngenes) for i in xrange(nindividuos)]
@@ -170,12 +181,17 @@ if __name__ == '__main__':
 		media = sum(valores)/len(valores)
 		valores_dp = [(valor-media)*(valor-media) for valor in valores]
 		dp = sqrt(sum(valores_dp)/len(valores_dp))
-		sys.stdout.write( "Geração %d\n" % (geracao+1) )
-		sys.stdout.write( "Melhor descendente: %f\n" % (valores[0]) )
-		sys.stdout.write( "Pior descendente: %f\n" % (valores[-1]) )
-		sys.stdout.write( "Aptidão média: %f\n" % (media) )
-		sys.stdout.write( "Desvio padrão: %f\n" % (dp) )
+		output.append( "\nGeração %d\n" % (geracao+1) )
+		output.append( "Melhor descendente: %f\n" % (valores[0]) )
+		output.append( "Pior descendente: %f\n" % (valores[-1]) )
+		output.append( "Aptidão média: %f\n" % (media) )
+		output.append( "Desvio padrão: %f\n" % (dp) )
 		
 	grafico(populacao[0][0])
-	sys.stdout.write( "Número de recombinações: %d\n" % (nrecombinacoes) )
-	sys.stdout.write( "Número de mutações: %d\n" % (nmutacoes) )
+	output.append( "\nNúmero de recombinações: %d\n" % (nrecombinacoes) )
+	output.append( "Número de mutações: %d\n" % (nmutacoes) )
+	
+	# guarda os resultados num ficheiro
+	ficheiro = open(data+".txt", "w")
+	ficheiro.writelines(output)
+	ficheiro.close()
