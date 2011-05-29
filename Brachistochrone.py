@@ -52,14 +52,38 @@ def percentagem(numero):
 		return novo[0] + "%"
 
 # cria um indivíduo de acordo com as regras exigidas
-def cria_individuo(x1, y1, x2, y2, ngenes):
+def cria_individuo(x1, y1, x2, y2, ngenes, abcissas_aleatorias):
 	individuo = [x1, y1]
 	for i in xrange(ngenes-2):
-		individuo.append((x1+((x2-x1)*(float(i+1)/(ngenes-1)))))
+		if abcissas_aleatorias:
+			individuo.append(uniform(x1, x2))
+		else:
+			individuo.append((x1+((x2-x1)*(float(i+1)/(ngenes-1)))))
 		individuo.append(uniform(0, y1))
 	individuo.append(x2)
 	individuo.append(y2)
-	return [individuo, 0]
+	if abcissas_aleatorias and not checkIndiv(individuo):
+		individuo = ordena_abcissas(individuo)
+		while individuo == False:
+			individuo = cria_individuo(x1, y1, x2, y2, ngenes, abcissas_aleatorias)
+	return [individuo, calcBrachTime(individuo)]
+
+# ordena as abcissas de um indivído com abcissas geradas aleatoriamente
+def ordena_abcissas(individuo):
+	temp = []
+	for i in xrange(0, len(individuo), 2):
+		temp.append([individuo[i], individuo[i+1]])
+	temp.sort(key=itemgetter(0))
+	aux = temp[0][0]
+	for i in xrange(1, len(temp)):
+		if aux == temp[i][0]:
+			return False
+		else:
+			aux = temp[i][0]
+	for i in xrange(len(temp)):
+		individuo[i*2] = temp[i][0]
+		individuo[i*2+1] = temp[i][1]
+	return individuo
 
 # faz a selecção dos progenitores de uma dada geração confome o método indicado
 def seleccao(populacao, tamanho_torneio):
@@ -81,21 +105,35 @@ def seleccao(populacao, tamanho_torneio):
 				return populacao[i]
 
 # cria novos descendentes através do método de recombinação de genes
-def recombinacao(nrecombinacao, progenitor1, progenitor2):
-    pontos = [choice(xrange(len(progenitor1))) for i in xrange(nrecombinacao)]
-    pontos.sort()
-    descendente1 = progenitor1[:pontos[0]]
-    descendente2 = progenitor2[:pontos[0]]
-    for i in xrange(len(pontos)-1):
-    	progenitor1, progenitor2 = progenitor2, progenitor1
-    	descendente1.extend(progenitor1[pontos[i]:pontos[i+1]])
-    	descendente2.extend(progenitor2[pontos[i]:pontos[i+1]])
-    descendente1.extend(progenitor2[pontos[-1]:])
-    descendente2.extend(progenitor1[pontos[-1]:])
-    return [[descendente1, 0], [descendente2, 0]]
+def recombinacao(nrecombinacao, progenitor1, progenitor2, abcissas_aleatorias):
+	"""
+	É neste método que está a haver problemas com os x repetidos.
+	À falta de alternativa melhor, deve-se mudar o método, para a recombinação
+	só ser feita para os valores de y, ou seja, mantendo-se os x sempre iguais.
+	"""
+	pontos = [choice(xrange(len(progenitor1))) for i in xrange(nrecombinacao)]
+	pontos.sort()
+	descendente1 = progenitor1[:pontos[0]]
+	descendente2 = progenitor2[:pontos[0]]
+	for i in xrange(len(pontos)-1):
+		progenitor1, progenitor2 = progenitor2, progenitor1
+		descendente1.extend(progenitor1[pontos[i]:pontos[i+1]])
+		descendente2.extend(progenitor2[pontos[i]:pontos[i+1]])
+	descendente1.extend(progenitor2[pontos[-1]:])
+	descendente2.extend(progenitor1[pontos[-1]:])
+	if abcissas_aleatorias:
+		if not checkIndiv(descendente1):
+			descendente1 = ordena_abcissas(descendente1)
+		if not checkIndiv(descendente2):
+			descendente2 = ordena_abcissas(descendente2)
+		while descendente1 == False or descendente2 == False:
+			temp = recombinacao(nrecombinacao, progenitor1, progenitor2, abcissas_aleatorias)
+			descendente1 = temp[0][0]
+			descentente2 = temp[1][0]
+	return [[descendente1, calcBrachTime(descendente1)], [descendente2, calcBrachTime(descendente2)]]
 
 # cria novos descendentes através do método de mutação de genes
-def mutacao(individuo,y1):
+def mutacao(individuo, y1, abcissas_aleatorias):
     cromossomas = individuo[0]
     i = 1+2+2*choice(xrange((len(cromossomas)-4)/2))
     novo_gene = uniform(0, y1)
@@ -104,7 +142,11 @@ def mutacao(individuo,y1):
     novos_cromossomas = cromossomas[:i]
     novos_cromossomas.append(novo_gene)
     novos_cromossomas.extend(cromossomas[i+1:])
-    return [novos_cromossomas,0]
+    if abcissas_aleatorias and not checkIndiv(novos_cromossomas):
+    	novos_cromossomas = ordena_abcissas(novos_cromossomas)
+    	while novos_cromossomas == False:
+    		novos_cromossomas = mutacao(individuo, y1, abcissas_aleatorias)
+    return [novos_cromossomas, calcBrachTime(novos_cromossomas)]
 
 # escolhe os sobreviventes através de elitismo
 def elitismo(populacao, descendentes, tamanho_elite):
@@ -127,6 +169,7 @@ if __name__ == '__main__':
 	prob_recombinacao = 0.6
 	prob_mutacao = 0.1
 	tamanho_elite = 0.3
+	abcissas_aleatorias = False
 
 	# carrega as configurações
 	try:
@@ -186,11 +229,8 @@ if __name__ == '__main__':
 	nrecombinacoes = 0
 	nmutacoes = 0
 	
-	# cria a população
-	populacao = [cria_individuo(x1, y1, x2, y2, ngenes) for i in xrange(nindividuos)]
-	
-	# avalia a população
-	populacao = [[individuo[0], calcBrachTime(individuo[0])] for individuo in populacao]
+	# cria a população e avalia-a
+	populacao = [cria_individuo(x1, y1, x2, y2, ngenes, abcissas_aleatorias) for i in xrange(nindividuos)]
 	
 	for geracao in xrange(ngeracoes):
 	
@@ -203,7 +243,7 @@ if __name__ == '__main__':
 		# por recombinação
 		for i in xrange(0, nindividuos, 2):
 			if random() < prob_recombinacao:
-				descendentes.extend(recombinacao(nrecombinacao, progenitores[i][0], progenitores[i+1][0]))
+				descendentes.extend(recombinacao(nrecombinacao, progenitores[i][0], progenitores[i+1][0], abcissas_aleatorias))
 				nrecombinacoes += 2
 			else:
 				descendentes.extend([progenitores[i], progenitores[i+1]])
@@ -211,14 +251,11 @@ if __name__ == '__main__':
 		# por mutação
 		for i in xrange(nindividuos):
 			if random() < prob_mutacao:
-				descendentes[i] = mutacao(descendentes[i],y1)
+				descendentes[i] = mutacao(descendentes[i], y1, abcissas_aleatorias)
 				nmutacoes += 1
 				
-		# avalia os descendentes
-		descendentes = [[individuo[0], calcBrachTime(individuo[0])] for individuo in descendentes]
-		descendentes.sort(key=itemgetter(1))
-		
 		# selecciona sobreviventes
+		descendentes.sort(key=itemgetter(1))
 		populacao = elitismo(populacao, descendentes, tamanho_elite)
 		populacao.sort(key=itemgetter(1))
 		
@@ -234,6 +271,7 @@ if __name__ == '__main__':
 		output.append( "Desvio padrão: %f\n" % (dp) )
 		
 	grafico(populacao[0][0])
+	sys.stdout.write("\nAptidão do melhor indivíduo: %f\n\n" % (populacao[0][1]))
 	output.append( "\nNúmero de recombinações: %d\n" % (nrecombinacoes) )
 	output.append( "Número de mutações: %d\n" % (nmutacoes) )
 	
