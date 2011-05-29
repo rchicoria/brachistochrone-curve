@@ -2,7 +2,7 @@
 
 from BrachFitness import *
 import sys
-from matplotlib.pyplot import plot, show
+from matplotlib.pyplot import plot, show, ylabel, xlabel, title
 from random import uniform, sample, random, choice
 from operator import itemgetter
 from math import sqrt
@@ -18,6 +18,7 @@ Requisitos do sistema:
 Ficheiros necessários:
 - Brachistochrone.py
 - BrachFitness.py
+- conf.txt
 
 Autores:
 João Claro
@@ -34,7 +35,10 @@ def grafico(curva):
 		x.append(curva[i])
 		y.append(curva[i+1])
 	
-	plot(x, y)
+	ylabel('y')
+	xlabel('x')
+	title('Melhor curva braquistocrona gerada')
+	plot(x, y, 'r')
 	show()
 
 # mostra uma percentagem com base num número decimal
@@ -57,23 +61,24 @@ def cria_individuo(x1, y1, x2, y2, ngenes):
 	individuo.append(y2)
 	return [individuo, 0]
 
-# selecciona os progenitores de uma dada geração através do método de torneio
-def seleccao_torneio(populacao, tamanho_torneio):
-    torneio = sample(populacao, tamanho_torneio)
-    torneio.sort(key=itemgetter(1))
-    return torneio[0]
-
-# selecciona os progenitores de uma dada geração através do método da roleta
-def seleccao_roleta(populacao):
-	roleta = [0 for i in xrange(len(populacao))]
-	total = 0
-	for i in xrange(len(populacao)):
-		total += populacao[i][1]
-		roleta[i] = total
-	resultado = uniform(0, total)
-	for i in xrange(len(populacao)):
-		if roleta[i] > resultado:
-			return populacao[i]
+# faz a selecção dos progenitores de uma dada geração confome o método indicado
+def seleccao(populacao, tamanho_torneio):
+	# selecciona através do método de torneio se o tamanho de torneio não for 0
+	if tamanho_torneio > 0:
+		torneio = sample(populacao, tamanho_torneio)
+		torneio.sort(key=itemgetter(1))
+		return torneio[0]
+	# selecciona através do método da roleta se o tamanho de torneio for 0
+	else:
+		roleta = [0 for i in xrange(len(populacao))]
+		total = 0
+		for i in xrange(len(populacao)):
+			total += populacao[i][1]
+			roleta[i] = total
+		resultado = uniform(0, total)
+		for i in xrange(len(populacao)):
+			if roleta[i] > resultado:
+				return populacao[i]
 
 # cria novos descendentes através do método de recombinação de genes
 def recombinacao(nrecombinacao, progenitor1, progenitor2):
@@ -140,9 +145,9 @@ if __name__ == '__main__':
 		prob_mutacao = float(linhas[11].split("=")[1].split("%")[0].strip())/100
 		tamanho_elite = float(linhas[12].split("=")[1].split("%")[0].strip())/100
 	except:
-		sys.stdout.write("O ficheiro de configuração não existe ou está corrompido. Foi gerado um novo ficheiro com as configurações pré-definidas\n")
+		sys.stdout.write("O ficheiro de configuração não existe ou está corrompido. Foi gerado um novo ficheiro com as configurações pré-definidas\n\n")
 		f = open("conf.txt", "w")
-		f.write("\nTrabalho Prático Nº2: Curva Braquistócrona\n")
+		f.write("Trabalho Prático Nº2: Curva Braquistócrona\n")
 		f.write("Ficheiro de configuração\n\n")
 		f.write("Ponto A = (%d,%d)\n" % (x1, y1))
 		f.write("Ponto B = (%d,%d)\n" % (x2, y2))
@@ -190,7 +195,7 @@ if __name__ == '__main__':
 	for geracao in xrange(ngeracoes):
 	
 		# selecciona os progenitores
-		progenitores = [seleccao_roleta(populacao) for i in xrange(nindividuos)]
+		progenitores = [seleccao(populacao, tamanho_torneio) for i in xrange(nindividuos)]
 		
 		# cria descendentes
 		descendentes = []
