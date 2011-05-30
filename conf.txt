@@ -1,0 +1,13 @@
+Trabalho Prático Nº2: Curva Braquistócrona
+Ficheiro de configuração
+
+Ponto A = (1,5)
+Ponto B = (4,2)
+Número de gerações = 10000
+Número de indivíduos = 50
+Número de genes = 50
+Tamanho do torneio = 3
+Número de pontos de recombinação = 5
+Probabilidade de recombinação = 60%
+Probabilidade de mutação = 10%
+Tamanho da elite = 30%
