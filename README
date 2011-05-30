@@ -2,7 +2,12 @@ O que falta na meta 1:
 - Done
 
 O que falta na meta 2:
-- Tudo
+- Número de genes: 10, 20, 30
+- Representação x fixos ou dinâmicos
+- Valores de recombinação
+- Valores de mutação
+- Mecanismos de selecção (torneio ou roleta)
+- Valores de elitismo
 
 O que falta no relatório:
 - Meta 1

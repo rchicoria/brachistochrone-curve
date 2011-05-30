@@ -2,7 +2,7 @@
 
 from BrachFitness import *
 import sys
-from matplotlib.pyplot import plot, show, ylabel, xlabel, title
+from matplotlib.pyplot import plot, show, ylabel, xlabel, title, savefig, close
 from random import uniform, sample, random, choice
 from operator import itemgetter
 from math import sqrt
@@ -40,6 +40,17 @@ def grafico(curva):
 	title('Melhor curva braquistocrona gerada')
 	plot(x, y, 'r')
 	show()
+
+# mostra a evolução da população
+def grafico_geracoes(dadosgeracoes, data):
+	x = [i for i in xrange(len(dadosgeracoes))]
+	melhor = [dado[0] for dado in dadosgeracoes]
+	pior = [dado[1] for dado in dadosgeracoes]
+	media = [dado[2] for dado in dadosgeracoes]
+	dp = [dado[3] for dado in dadosgeracoes]
+	close()
+	plot(x, melhor, 'g', x, pior, 'r', x, media, 'b', x, dp, 'y')
+	savefig("testes/"+data+".png")
 
 # mostra uma percentagem com base num número decimal
 def percentagem(numero):
@@ -106,7 +117,7 @@ def seleccao(populacao, tamanho_torneio):
 
 # cria novos descendentes através do método de recombinação de genes
 def recombinacao(nrecombinacao, progenitor1, progenitor2, abcissas_aleatorias):
-	p1y = [progenitor2[i*2+1] for i in xrange(len(progenitor2)/2)]
+	p1y = [progenitor1[i*2+1] for i in xrange(len(progenitor1)/2)]
 	p2y = [progenitor2[i*2+1] for i in xrange(len(progenitor2)/2)]
 	pontos = [choice(xrange(len(p1y))) for i in xrange(nrecombinacao)]
 	pontos.sort()
@@ -118,8 +129,8 @@ def recombinacao(nrecombinacao, progenitor1, progenitor2, abcissas_aleatorias):
 		d2y.extend(p2y[pontos[i]:pontos[i+1]])
 	d1y.extend(p2y[pontos[-1]:])
 	d2y.extend(p1y[pontos[-1]:])
-	descendente1 = progenitor1
-	descendente2 = progenitor2
+	descendente1 = progenitor1[:]
+	descendente2 = progenitor2[:]
 	for i in xrange(len(d1y)):
 		descendente1[i*2+1] = d1y[i]
 		descendente2[i*2+1] = d2y[i]
@@ -147,61 +158,7 @@ def elitismo(populacao, descendentes, tamanho_elite):
     nova_populacao = populacao[:tamanho] + descendentes[:len(populacao) - tamanho]
     return nova_populacao
 
-if __name__ == '__main__':
-
-	# pré-definições
-	x1 = 1
-	y1 = 5
-	x2 = 4
-	y2 = 2
-	ngeracoes = 10000
-	nindividuos = 50
-	ngenes = 50
-	tamanho_torneio = 3
-	nrecombinacao = 5
-	prob_recombinacao = 0.6
-	prob_mutacao = 0.1
-	tamanho_elite = 0.3
-	abcissas_aleatorias = True
-
-	# carrega as configurações
-	try:
-		f = open("conf.txt", "r")
-		linhas = f.readlines()
-		x1 = int(linhas[3].split("(")[1].split(",")[0].strip())
-		y1 = int(linhas[3].split(",")[1].split(")")[0].strip())
-		x2 = int(linhas[4].split("(")[1].split(",")[0].strip())
-		y2 = int(linhas[4].split(",")[1].split(")")[0].strip())
-		ngeracoes = int(linhas[5].split("=")[1].strip())
-		nindividuos = int(linhas[6].split("=")[1].strip())
-		ngenes = int(linhas[7].split("=")[1].strip())
-		tamanho_torneio = int(linhas[8].split("=")[1].strip())
-		nrecombinacao = int(linhas[9].split("=")[1].strip())
-		prob_recombinacao = float(linhas[10].split("=")[1].split("%")[0].strip())/100
-		prob_mutacao = float(linhas[11].split("=")[1].split("%")[0].strip())/100
-		tamanho_elite = float(linhas[12].split("=")[1].split("%")[0].strip())/100
-	except:
-		sys.stdout.write("O ficheiro de configuração não existe ou está corrompido. Foi gerado um novo ficheiro com as configurações pré-definidas\n\n")
-		f = open("conf.txt", "w")
-		f.write("Trabalho Prático Nº2: Curva Braquistócrona\n")
-		f.write("Ficheiro de configuração\n\n")
-		f.write("Ponto A = (%d,%d)\n" % (x1, y1))
-		f.write("Ponto B = (%d,%d)\n" % (x2, y2))
-		f.write("Número de gerações = %d\n" % (ngeracoes))
-		f.write("Número de indivíduos = %d\n" % (nindividuos))
-		f.write("Número de genes = %d\n" % (ngenes))
-		f.write("Tamanho do torneio = %d\n" % (tamanho_torneio))
-		f.write("Número de pontos de recombinação = %d\n" % (nrecombinacao))
-		f.write("Probabilidade de recombinação = %s\n" % (percentagem(prob_recombinacao)))
-		f.write("Probabilidade de mutação = %s\n" % (percentagem(prob_mutacao)))
-		f.write("Tamanho da elite = %s\n" % (percentagem(tamanho_elite)))
-		f.close()
-		f = open("conf.txt", "r")
-	
-	f.seek(0)
-	sys.stdout.write(f.read())
-	f.close()
-	
+def run():
 	# prepara ficheiro de output
 	data = strftime("%d-%m-%Y - %Hh %Mm %Ss")
 	output = ["\nResultados do teste ocorrido a %s:\n" % (data)]
@@ -216,11 +173,17 @@ if __name__ == '__main__':
 	output.append("Probabilidade de recombinação = %s\n" % (percentagem(prob_recombinacao)))
 	output.append("Probabilidade de mutação = %s\n" % (percentagem(prob_mutacao)))
 	output.append("Tamanho da elite = %s\n" % (percentagem(tamanho_elite)))
+	output.append("Representação (abcissas fixas ou dinâmicas): ")
+	if abcissas_aleatorias:
+		output.append("dinâmicas\n")
+	else:
+		output.append("fixas\n")
 	output.append("\nResultados:\n")
 	
 	# faz os cálculos
 	nrecombinacoes = 0
 	nmutacoes = 0
+	dadosgeracoes = []
 	
 	# cria a população e avalia-a
 	populacao = [cria_individuo(x1, y1, x2, y2, ngenes, abcissas_aleatorias) for i in xrange(nindividuos)]
@@ -262,13 +225,85 @@ if __name__ == '__main__':
 		output.append( "Pior descendente: %f\n" % (valores[-1]) )
 		output.append( "Aptidão média: %f\n" % (media) )
 		output.append( "Desvio padrão: %f\n" % (dp) )
+		dadosgeracoes.append([valores[0], valores[-1], media, dp])
 		
-	grafico(populacao[0][0])
-	sys.stdout.write("\nAptidão do melhor indivíduo: %f\n\n" % (populacao[0][1]))
+	grafico_geracoes(dadosgeracoes, data)
+	sys.stdout.write("Aptidão do melhor indivíduo: %f\n" % (populacao[0][1]))
 	output.append( "\nNúmero de recombinações: %d\n" % (nrecombinacoes) )
 	output.append( "Número de mutações: %d\n" % (nmutacoes) )
 	
 	# guarda os resultados num ficheiro
-	f = open(data+".txt", "w")
+	f = open("testes/"+data+".txt", "w")
 	f.writelines(output)
 	f.close()
+
+if __name__ == '__main__':
+
+	sys.stdout.write("Número de repetições da experiência: ")
+	n = int(sys.stdin.readline())
+	
+	# pré-definições
+	x1 = 1
+	y1 = 5
+	x2 = 4
+	y2 = 2
+	ngeracoes = 100
+	nindividuos = 50
+	ngenes = 20
+	tamanho_torneio = 3
+	nrecombinacao = 5
+	prob_recombinacao = 0.6
+	prob_mutacao = 0.1
+	tamanho_elite = 0.3
+	abcissas_aleatorias = True
+
+	# carrega as configurações
+	try:
+		f = open("conf.txt", "r")
+		linhas = f.readlines()
+		x1 = int(linhas[3].split("(")[1].split(",")[0].strip())
+		y1 = int(linhas[3].split(",")[1].split(")")[0].strip())
+		x2 = int(linhas[4].split("(")[1].split(",")[0].strip())
+		y2 = int(linhas[4].split(",")[1].split(")")[0].strip())
+		ngeracoes = int(linhas[5].split("=")[1].strip())
+		nindividuos = int(linhas[6].split("=")[1].strip())
+		ngenes = int(linhas[7].split("=")[1].strip())
+		tamanho_torneio = int(linhas[8].split("=")[1].strip())
+		nrecombinacao = int(linhas[9].split("=")[1].strip())
+		prob_recombinacao = float(linhas[10].split("=")[1].split("%")[0].strip())/100
+		prob_mutacao = float(linhas[11].split("=")[1].split("%")[0].strip())/100
+		tamanho_elite = float(linhas[12].split("=")[1].split("%")[0].strip())/100
+		texto = linhas[13].split(":")[1].strip()
+		if texto == "fixas" or texto == "Fixas":
+			abcissas_aleatorias = False
+		else:
+			abcissas_aleatorias = True
+	except:
+		sys.stdout.write("O ficheiro de configuração não existe ou está corrompido. Foi gerado um novo ficheiro com as configurações pré-definidas\n\n")
+		f = open("conf.txt", "w")
+		f.write("Trabalho Prático Nº2: Curva Braquistócrona\n")
+		f.write("Ficheiro de configuração\n\n")
+		f.write("Ponto A = (%d,%d)\n" % (x1, y1))
+		f.write("Ponto B = (%d,%d)\n" % (x2, y2))
+		f.write("Número de gerações = %d\n" % (ngeracoes))
+		f.write("Número de indivíduos = %d\n" % (nindividuos))
+		f.write("Número de genes = %d\n" % (ngenes))
+		f.write("Tamanho do torneio = %d\n" % (tamanho_torneio))
+		f.write("Número de pontos de recombinação = %d\n" % (nrecombinacao))
+		f.write("Probabilidade de recombinação = %s\n" % (percentagem(prob_recombinacao)))
+		f.write("Probabilidade de mutação = %s\n" % (percentagem(prob_mutacao)))
+		f.write("Tamanho da elite = %s\n" % (percentagem(tamanho_elite)))
+		f.write("Representação (abcissas fixas ou dinâmicas): ")
+		if abcissas_aleatorias:
+			f.write("dinâmicas\n")
+		else:
+			f.write("fixas\n")
+		f.close()
+		f = open("conf.txt", "r")
+	
+	f.seek(0)
+	sys.stdout.write(f.read()+"\n")
+	f.close()
+	
+	for i in xrange(n):
+		run()
