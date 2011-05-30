@@ -106,30 +106,23 @@ def seleccao(populacao, tamanho_torneio):
 
 # cria novos descendentes através do método de recombinação de genes
 def recombinacao(nrecombinacao, progenitor1, progenitor2, abcissas_aleatorias):
-	"""
-	É neste método que está a haver problemas com os x repetidos.
-	À falta de alternativa melhor, deve-se mudar o método, para a recombinação
-	só ser feita para os valores de y, ou seja, mantendo-se os x sempre iguais.
-	"""
-	pontos = [choice(xrange(len(progenitor1))) for i in xrange(nrecombinacao)]
+	p1y = [progenitor2[i*2+1] for i in xrange(len(progenitor2)/2)]
+	p2y = [progenitor2[i*2+1] for i in xrange(len(progenitor2)/2)]
+	pontos = [choice(xrange(len(p1y))) for i in xrange(nrecombinacao)]
 	pontos.sort()
-	descendente1 = progenitor1[:pontos[0]]
-	descendente2 = progenitor2[:pontos[0]]
+	d1y = p1y[:pontos[0]]
+	d2y = p2y[:pontos[0]]
 	for i in xrange(len(pontos)-1):
-		progenitor1, progenitor2 = progenitor2, progenitor1
-		descendente1.extend(progenitor1[pontos[i]:pontos[i+1]])
-		descendente2.extend(progenitor2[pontos[i]:pontos[i+1]])
-	descendente1.extend(progenitor2[pontos[-1]:])
-	descendente2.extend(progenitor1[pontos[-1]:])
-	if abcissas_aleatorias:
-		if not checkIndiv(descendente1):
-			descendente1 = ordena_abcissas(descendente1)
-		if not checkIndiv(descendente2):
-			descendente2 = ordena_abcissas(descendente2)
-		while descendente1 == False or descendente2 == False:
-			temp = recombinacao(nrecombinacao, progenitor1, progenitor2, abcissas_aleatorias)
-			descendente1 = temp[0][0]
-			descentente2 = temp[1][0]
+		p1y, p2y = p2y, p1y
+		d1y.extend(p1y[pontos[i]:pontos[i+1]])
+		d2y.extend(p2y[pontos[i]:pontos[i+1]])
+	d1y.extend(p2y[pontos[-1]:])
+	d2y.extend(p1y[pontos[-1]:])
+	descendente1 = progenitor1
+	descendente2 = progenitor2
+	for i in xrange(len(d1y)):
+		descendente1[i*2+1] = d1y[i]
+		descendente2[i*2+1] = d2y[i]
 	return [[descendente1, calcBrachTime(descendente1)], [descendente2, calcBrachTime(descendente2)]]
 
 # cria novos descendentes através do método de mutação de genes
@@ -169,7 +162,7 @@ if __name__ == '__main__':
 	prob_recombinacao = 0.6
 	prob_mutacao = 0.1
 	tamanho_elite = 0.3
-	abcissas_aleatorias = False
+	abcissas_aleatorias = True
 
 	# carrega as configurações
 	try:
@@ -210,7 +203,7 @@ if __name__ == '__main__':
 	f.close()
 	
 	# prepara ficheiro de output
-	data = strftime("%d-%m-%Y - %H:%M:%S")
+	data = strftime("%d-%m-%Y - %Hh %Mm %Ss")
 	output = ["\nResultados do teste ocorrido a %s:\n" % (data)]
 	output.append("\nDados:\n")
 	output.append("ponto A = (%d,%d)\n" % (x1, y1))
