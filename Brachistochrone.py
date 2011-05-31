@@ -15,10 +15,11 @@ Trabalho Prático Nº2: Curva Braquistócrona
 Requisitos do sistema:
 - módulo do Python matplotlib (em linux executar sudo apt-get install python-matplotlib)
 
-Ficheiros necessários:
+Ficheiros/directorias necessários:
 - Brachistochrone.py
 - BrachFitness.py
 - conf.txt
+- testes (directoria)
 
 Autores:
 João Claro
@@ -236,6 +237,8 @@ def run():
 	f = open("testes/"+data+".txt", "w")
 	f.writelines(output)
 	f.close()
+	
+	return [valores[0], valores[-1], media, dp]
 
 if __name__ == '__main__':
 
@@ -305,5 +308,12 @@ if __name__ == '__main__':
 	sys.stdout.write(f.read()+"\n")
 	f.close()
 	
+	medias = [0.0 for i in xrange(4)]
 	for i in xrange(n):
-		run()
+		temp = run()
+		for j in xrange(4):
+			medias[j] += temp[j]
+	
+	for i in xrange(4):
+		medias[i] /= n
+	print medias

@@ -4,11 +4,11 @@ Ficheiro de configuração
 Ponto A = (0,100)
 Ponto B = (30,50)
 Número de gerações = 100
-Número de indivíduos = 50
+Número de indivíduos = 200
 Número de genes = 20
 Tamanho do torneio = 2
 Número de pontos de recombinação = 2
 Probabilidade de recombinação = 50%
 Probabilidade de mutação = 10%
 Tamanho da elite = 10%
-Representação (abcissas fixas ou dinâmicas): dinâmicas
+Representação (abcissas fixas ou dinâmicas): fixas
