@@ -2,7 +2,7 @@
 
 from BrachFitness import *
 import sys
-from matplotlib.pyplot import plot, show, ylabel, xlabel, title, savefig, close
+from matplotlib.pyplot import plot, show, ylabel, xlabel, title, savefig, close, figure
 from random import uniform, sample, random, choice
 from operator import itemgetter
 from math import sqrt
@@ -28,7 +28,7 @@ Rui Chicória
 """
 
 # recebe os pontos da curva de um indivíduo, e traça o gráfico respectivo
-def grafico(curva):
+def grafico_curva(curva, data):
 	x = []
 	y = []
 	
@@ -36,11 +36,12 @@ def grafico(curva):
 		x.append(curva[i])
 		y.append(curva[i+1])
 	
+	close()
 	ylabel('y')
 	xlabel('x')
 	title('Melhor curva braquistocrona gerada')
 	plot(x, y, 'r')
-	show()
+	savefig("testes/"+data+" curva.png")
 
 # mostra a evolução da população
 def grafico_geracoes(dadosgeracoes, data):
@@ -50,8 +51,11 @@ def grafico_geracoes(dadosgeracoes, data):
 	media = [dado[2] for dado in dadosgeracoes]
 	dp = [dado[3] for dado in dadosgeracoes]
 	close()
+	ylabel('Aptidao')
+	xlabel('Geracoes')
+	title('Aptidoes ao longo das geracoes')
 	plot(x, melhor, 'g', x, pior, 'r', x, media, 'b', x, dp, 'y')
-	savefig("testes/"+data+".png")
+	savefig("testes/"+data+" aptidao.png")
 
 # mostra uma percentagem com base num número decimal
 def percentagem(numero):
@@ -109,7 +113,7 @@ def seleccao(populacao, tamanho_torneio):
 		roleta = [0 for i in xrange(len(populacao))]
 		total = 0
 		for i in xrange(len(populacao)):
-			total += populacao[i][1]
+			total += 1.0/populacao[i][1]
 			roleta[i] = total
 		resultado = uniform(0, total)
 		for i in xrange(len(populacao)):
@@ -159,7 +163,8 @@ def elitismo(populacao, descendentes, tamanho_elite):
     nova_populacao = populacao[:tamanho] + descendentes[:len(populacao) - tamanho]
     return nova_populacao
 
-def run():
+def run(x1, y1, x2, y2, ngeracoes, nindividuos, ngenes, tamanho_torneio, nrecombinacao,
+		prob_recombinacao, prob_mutacao, tamanho_elite, abcissas_aleatorias):
 	# prepara ficheiro de output
 	data = strftime("%d-%m-%Y - %Hh %Mm %Ss")
 	output = ["\nResultados do teste ocorrido a %s:\n" % (data)]
@@ -228,23 +233,20 @@ def run():
 		output.append( "Desvio padrão: %f\n" % (dp) )
 		dadosgeracoes.append([valores[0], valores[-1], media, dp])
 		
-	grafico_geracoes(dadosgeracoes, data)
-	sys.stdout.write("Aptidão do melhor indivíduo: %f\n" % (populacao[0][1]))
+	"""grafico_geracoes(dadosgeracoes, data)
+	grafico_curva(populacao[0][0], data)
+	#sys.stdout.write("Aptidão do melhor indivíduo: %f\n" % (populacao[0][1]))
 	output.append( "\nNúmero de recombinações: %d\n" % (nrecombinacoes) )
 	output.append( "Número de mutações: %d\n" % (nmutacoes) )
 	
 	# guarda os resultados num ficheiro
 	f = open("testes/"+data+".txt", "w")
 	f.writelines(output)
-	f.close()
+	f.close()"""
 	
 	return [valores[0], valores[-1], media, dp]
 
-if __name__ == '__main__':
-
-	sys.stdout.write("Número de repetições da experiência: ")
-	n = int(sys.stdin.readline())
-	
+def configuracoes(prints):
 	# pré-definições
 	x1 = 1
 	y1 = 5
@@ -303,17 +305,28 @@ if __name__ == '__main__':
 			f.write("fixas\n")
 		f.close()
 		f = open("conf.txt", "r")
-	
-	f.seek(0)
-	sys.stdout.write(f.read()+"\n")
+	if prints:
+		f.seek(0)
+		sys.stdout.write(f.read()+"\n")
 	f.close()
 	
+	return [x1,y1,x2,y2,ngeracoes,nindividuos,ngenes,tamanho_torneio,nrecombinacao,prob_recombinacao,prob_mutacao,tamanho_elite,abcissas_aleatorias]
+
+def brachistochrone(n, prints, c):
 	medias = [0.0 for i in xrange(4)]
 	for i in xrange(n):
-		temp = run()
+		temp = run(c[0], c[1], c[2], c[3], c[4], c[5], c[6], c[7], c[8], c[9], c[10], c[11], c[12])
 		for j in xrange(4):
 			medias[j] += temp[j]
 	
 	for i in xrange(4):
 		medias[i] /= n
-	print medias
+	sys.stdout.write("Melhor indivíduo: %.5f    " % (medias[0]))
+	sys.stdout.write("Pior indivíduo: %.5f    " % (medias[1]))
+	sys.stdout.write("Aptidão média: %.5f    " % (medias[2]))
+	sys.stdout.write("Desvio padrão: %.5f\n" % (medias[3]))
+
+if __name__ == '__main__':
+	sys.stdout.write("Número de repetições da experiência: ")
+	n = int(sys.stdin.readline())
+	brachistochrone(n, True, configuracoes(True))

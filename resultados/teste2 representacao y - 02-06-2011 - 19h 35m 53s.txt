@@ -1,0 +1,720 @@
+
+A(0,100) B(30,50)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,100) B(30,50)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,10) B(3,5)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(10,100) B(20,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
+
+A(0,20) B(100,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0
+Probabilidade de mutação: 0
