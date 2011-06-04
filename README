@@ -2,13 +2,10 @@ O que falta na meta 1:
 - Done
 
 O que falta na meta 2:
-- Número de genes: 10, 20, 30
-- Representação x fixos ou dinâmicos
-- Valores de recombinação
-- Valores de mutação
-- Mecanismos de selecção (torneio ou roleta)
-- Valores de elitismo
+- Estão feitas 2 tabelas para cada representação, é preciso ter mais (por exemplo uma que relacione prob de recombinação e número de pontos de recombinação, outra que use o elitismo... é preciso ver o que há para decidir o que fazer mais)
+- Muito importante: ao gerar os ficheiros com os resultados dos testes, confirmar que os dados aparecem pela ordem certa! A ordem está certa para os 2 primeiros testes (confirmada ordem dos valores do ficheiro de resultados completo com a ordem dos valores na tabela)
+- Não apagar os ficheiros de resultados já gerados. Para novos testes, só deve haver um conjunto de ficheiros de resultados (o que for usado no excel)
 
 O que falta no relatório:
-- Meta 1
-- Meta 2
+- Meta 2 (pode-se aproveitar algumas conclusões que lá estão, mas é para refazer esta meta)
+- Conclusão

@@ -100,9 +100,9 @@ elif teste == 2:
 					else:
 						output.append("Método de selecção: Roleta\n")
 					sys.stdout.write(output[-1])
-					output.append("Probabilidade de recombinação: %d\n" % (recombinacao))
+					output.append("Probabilidade de recombinação: %f\n" % (recombinacao))
 					sys.stdout.write(output[-1])
-					output.append("Probabilidade de mutação: %d\n" % (mutacao))
+					output.append("Probabilidade de mutação: %f\n" % (mutacao))
 					sys.stdout.write(output[-1])
 					resultados = brachistochrone(1, False, c)
 					output.append("Melhor indivíduo: %.5f    " % (resultados[0]))
