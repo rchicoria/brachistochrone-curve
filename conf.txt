@@ -1,4 +1,4 @@
-Trabalho Prático Nº2: Curva Braquistócrona
+﻿Trabalho Prático Nº2: Curva Braquistócrona
 Ficheiro de configuração
 
 Ponto A = (0,20)
