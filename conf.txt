@@ -12,4 +12,3 @@ Probabilidade de recombinação = 50%
 Probabilidade de mutação = 10%
 Tamanho da elite = 10%
 Representação (abcissas fixas ou dinâmicas): fixas
-ola 
