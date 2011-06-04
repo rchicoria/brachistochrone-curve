@@ -325,6 +325,7 @@ def brachistochrone(n, prints, c):
 	sys.stdout.write("Pior indivíduo: %.5f    " % (medias[1]))
 	sys.stdout.write("Aptidão média: %.5f    " % (medias[2]))
 	sys.stdout.write("Desvio padrão: %.5f\n" % (medias[3]))
+	return medias
 
 if __name__ == '__main__':
 	sys.stdout.write("Número de repetições da experiência: ")
