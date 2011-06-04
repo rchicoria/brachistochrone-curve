@@ -1,0 +1,880 @@
+
+Pontos A(0,100) B(30,50)
+-----------------------------------------
+
+A(0,100) B(30,50)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 5.09789    Pior indivíduo: 5.15758    Aptidão média: 5.13328    Desvio padrão: 0.02448
+
+A(0,100) B(30,50)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 4.42913    Pior indivíduo: 4.56190    Aptidão média: 4.44054    Desvio padrão: 0.03202
+
+A(0,100) B(30,50)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 3.98776    Pior indivíduo: 3.98776    Aptidão média: 3.98776    Desvio padrão: 0.00000
+
+A(0,100) B(30,50)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 5.55697    Pior indivíduo: 5.55703    Aptidão média: 5.55701    Desvio padrão: 0.00003
+
+A(0,100) B(30,50)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 4.22685    Pior indivíduo: 4.24613    Aptidão média: 4.23506    Desvio padrão: 0.00489
+
+A(0,100) B(30,50)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 4.47891    Pior indivíduo: 4.57334    Aptidão média: 4.52850    Desvio padrão: 0.04373
+
+A(0,100) B(30,50)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 4.17263    Pior indivíduo: 4.17297    Aptidão média: 4.17296    Desvio padrão: 0.00002
+
+A(0,100) B(30,50)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 4.22200    Pior indivíduo: 4.22560    Aptidão média: 4.22369    Desvio padrão: 0.00066
+
+A(0,100) B(30,50)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 4.44537    Pior indivíduo: 4.48141    Aptidão média: 4.47397    Desvio padrão: 0.00642
+
+A(0,100) B(30,50)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 4.18507    Pior indivíduo: 4.18567    Aptidão média: 4.18544    Desvio padrão: 0.00015
+
+A(0,100) B(30,50)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 4.39303    Pior indivíduo: 4.39303    Aptidão média: 4.39303    Desvio padrão: 0.00000
+
+A(0,100) B(30,50)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 5.12234    Pior indivíduo: 5.12241    Aptidão média: 5.12237    Desvio padrão: 0.00003
+
+A(0,100) B(30,50)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 4.05350    Pior indivíduo: 4.28551    Aptidão média: 4.10127    Desvio padrão: 0.02267
+
+A(0,100) B(30,50)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 5.08934    Pior indivíduo: 5.10212    Aptidão média: 5.09660    Desvio padrão: 0.00236
+
+A(0,100) B(30,50)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 4.56437    Pior indivíduo: 4.65809    Aptidão média: 4.56630    Desvio padrão: 0.01005
+
+A(0,100) B(30,50)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 4.61320    Pior indivíduo: 4.61320    Aptidão média: 4.61320    Desvio padrão: 0.00000
+
+A(0,100) B(30,50)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 3.76507    Pior indivíduo: 3.80573    Aptidão média: 3.78246    Desvio padrão: 0.01183
+
+A(0,100) B(30,50)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 4.47564    Pior indivíduo: 4.53511    Aptidão média: 4.49432    Desvio padrão: 0.01388
+
+A(0,100) B(30,50)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 3.88064    Pior indivíduo: 3.88064    Aptidão média: 3.88064    Desvio padrão: 0.00000
+
+A(0,100) B(30,50)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 4.22737    Pior indivíduo: 4.22737    Aptidão média: 4.22737    Desvio padrão: 0.00000
+
+A(0,100) B(30,50)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 4.70822    Pior indivíduo: 4.81364    Aptidão média: 4.74155    Desvio padrão: 0.01967
+
+A(0,100) B(30,50)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 3.85657    Pior indivíduo: 3.86259    Aptidão média: 3.86161    Desvio padrão: 0.00219
+
+A(0,100) B(30,50)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 4.56681    Pior indivíduo: 4.61927    Aptidão média: 4.56717    Desvio padrão: 0.00370
+
+A(0,100) B(30,50)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 4.45513    Pior indivíduo: 4.45530    Aptidão média: 4.45516    Desvio padrão: 0.00006
+
+A(0,100) B(30,50)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 5.04497    Pior indivíduo: 5.89671    Aptidão média: 5.12450    Desvio padrão: 0.16851
+
+A(0,100) B(30,50)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 4.63169    Pior indivíduo: 5.56971    Aptidão média: 4.65587    Desvio padrão: 0.11655
+
+A(0,100) B(30,50)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 4.47270    Pior indivíduo: 5.08758    Aptidão média: 4.49361    Desvio padrão: 0.09754
+
+A(0,100) B(30,50)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 5.47528    Pior indivíduo: 5.95193    Aptidão média: 5.48414    Desvio padrão: 0.05568
+
+A(0,100) B(30,50)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 4.64518    Pior indivíduo: 5.55477    Aptidão média: 4.85105    Desvio padrão: 0.20335
+
+A(0,100) B(30,50)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 3.99312    Pior indivíduo: 4.89099    Aptidão média: 4.01829    Desvio padrão: 0.08216
+
+A(0,100) B(30,50)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 4.05304    Pior indivíduo: 4.98871    Aptidão média: 4.09602    Desvio padrão: 0.15187
+
+A(0,100) B(30,50)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 4.76424    Pior indivíduo: 4.79682    Aptidão média: 4.78252    Desvio padrão: 0.00223
+
+A(0,100) B(30,50)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 4.74310    Pior indivíduo: 5.68315    Aptidão média: 4.84928    Desvio padrão: 0.17634
+
+A(0,100) B(30,50)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 4.05958    Pior indivíduo: 4.76929    Aptidão média: 4.08504    Desvio padrão: 0.07665
+
+A(0,100) B(30,50)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 4.21181    Pior indivíduo: 4.22012    Aptidão média: 4.21342    Desvio padrão: 0.00083
+
+A(0,100) B(30,50)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 3.92853    Pior indivíduo: 4.07497    Aptidão média: 3.92960    Desvio padrão: 0.01074
+-----------------------------------------
+
+Pontos A(0,10) B(3,5)
+-----------------------------------------
+
+A(0,10) B(3,5)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 1.16049    Pior indivíduo: 1.16224    Aptidão média: 1.16144    Desvio padrão: 0.00087
+
+A(0,10) B(3,5)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 1.34585    Pior indivíduo: 1.35356    Aptidão média: 1.35218    Desvio padrão: 0.00228
+
+A(0,10) B(3,5)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 1.34283    Pior indivíduo: 1.34409    Aptidão média: 1.34314    Desvio padrão: 0.00054
+
+A(0,10) B(3,5)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 1.45100    Pior indivíduo: 1.45100    Aptidão média: 1.45100    Desvio padrão: 0.00000
+
+A(0,10) B(3,5)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 1.53132    Pior indivíduo: 1.53352    Aptidão média: 1.53235    Desvio padrão: 0.00049
+
+A(0,10) B(3,5)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 1.55418    Pior indivíduo: 1.56496    Aptidão média: 1.56426    Desvio padrão: 0.00266
+
+A(0,10) B(3,5)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 1.26465    Pior indivíduo: 1.26560    Aptidão média: 1.26551    Desvio padrão: 0.00028
+
+A(0,10) B(3,5)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 1.18217    Pior indivíduo: 1.19142    Aptidão média: 1.19100    Desvio padrão: 0.00192
+
+A(0,10) B(3,5)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 1.39045    Pior indivíduo: 1.43637    Aptidão média: 1.41310    Desvio padrão: 0.01114
+
+A(0,10) B(3,5)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 1.18763    Pior indivíduo: 1.18854    Aptidão média: 1.18765    Desvio padrão: 0.00013
+
+A(0,10) B(3,5)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 1.23613    Pior indivíduo: 1.23613    Aptidão média: 1.23613    Desvio padrão: 0.00000
+
+A(0,10) B(3,5)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 1.53465    Pior indivíduo: 1.56211    Aptidão média: 1.54663    Desvio padrão: 0.01359
+
+A(0,10) B(3,5)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 1.38714    Pior indivíduo: 1.42163    Aptidão média: 1.40084    Desvio padrão: 0.00720
+
+A(0,10) B(3,5)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 1.37334    Pior indivíduo: 1.37826    Aptidão média: 1.37686    Desvio padrão: 0.00127
+
+A(0,10) B(3,5)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 1.45842    Pior indivíduo: 1.68009    Aptidão média: 1.47447    Desvio padrão: 0.01768
+
+A(0,10) B(3,5)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 1.47602    Pior indivíduo: 1.65307    Aptidão média: 1.48082    Desvio padrão: 0.02318
+
+A(0,10) B(3,5)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 1.61573    Pior indivíduo: 1.69959    Aptidão média: 1.63339    Desvio padrão: 0.01261
+
+A(0,10) B(3,5)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 1.63022    Pior indivíduo: 1.63258    Aptidão média: 1.63178    Desvio padrão: 0.00085
+
+A(0,10) B(3,5)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 1.58862    Pior indivíduo: 1.59116    Aptidão média: 1.59083    Desvio padrão: 0.00042
+
+A(0,10) B(3,5)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 1.30261    Pior indivíduo: 1.30618    Aptidão média: 1.30599    Desvio padrão: 0.00078
+
+A(0,10) B(3,5)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 1.47688    Pior indivíduo: 1.57311    Aptidão média: 1.53987    Desvio padrão: 0.03774
+
+A(0,10) B(3,5)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 1.38039    Pior indivíduo: 1.52352    Aptidão média: 1.40439    Desvio padrão: 0.01321
+
+A(0,10) B(3,5)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 1.23205    Pior indivíduo: 1.24734    Aptidão média: 1.23318    Desvio padrão: 0.00108
+
+A(0,10) B(3,5)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 1.63701    Pior indivíduo: 1.63701    Aptidão média: 1.63701    Desvio padrão: 0.00000
+
+A(0,10) B(3,5)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 1.55165    Pior indivíduo: 1.80717    Aptidão média: 1.57916    Desvio padrão: 0.05443
+
+A(0,10) B(3,5)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 1.45849    Pior indivíduo: 1.46016    Aptidão média: 1.45940    Desvio padrão: 0.00071
+
+A(0,10) B(3,5)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 1.60287    Pior indivíduo: 1.66641    Aptidão média: 1.60657    Desvio padrão: 0.00571
+
+A(0,10) B(3,5)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 1.50464    Pior indivíduo: 1.69700    Aptidão média: 1.52103    Desvio padrão: 0.02129
+
+A(0,10) B(3,5)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 1.55290    Pior indivíduo: 1.63798    Aptidão média: 1.56693    Desvio padrão: 0.01532
+
+A(0,10) B(3,5)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 1.67533    Pior indivíduo: 1.80882    Aptidão média: 1.67809    Desvio padrão: 0.01565
+
+A(0,10) B(3,5)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 1.18420    Pior indivíduo: 1.37327    Aptidão média: 1.18755    Desvio padrão: 0.01798
+
+A(0,10) B(3,5)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 1.37330    Pior indivíduo: 1.63534    Aptidão média: 1.38078    Desvio padrão: 0.03531
+
+A(0,10) B(3,5)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 1.30651    Pior indivíduo: 1.60158    Aptidão média: 1.33847    Desvio padrão: 0.06188
+
+A(0,10) B(3,5)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 1.25170    Pior indivíduo: 1.71372    Aptidão média: 1.27822    Desvio padrão: 0.09103
+
+A(0,10) B(3,5)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 1.16733    Pior indivíduo: 1.33594    Aptidão média: 1.17105    Desvio padrão: 0.02082
+
+A(0,10) B(3,5)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 1.33683    Pior indivíduo: 1.53131    Aptidão média: 1.34934    Desvio padrão: 0.02961
+-----------------------------------------
+
+Pontos A(10,100) B(20,10)
+-----------------------------------------
+
+A(10,100) B(20,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 4.32095    Pior indivíduo: 4.32336    Aptidão média: 4.32221    Desvio padrão: 0.00094
+
+A(10,100) B(20,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 4.40789    Pior indivíduo: 4.40919    Aptidão média: 4.40880    Desvio padrão: 0.00032
+
+A(10,100) B(20,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 4.50480    Pior indivíduo: 4.50611    Aptidão média: 4.50533    Desvio padrão: 0.00064
+
+A(10,100) B(20,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 4.43227    Pior indivíduo: 4.43227    Aptidão média: 4.43227    Desvio padrão: 0.00000
+
+A(10,100) B(20,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 4.31661    Pior indivíduo: 4.38070    Aptidão média: 4.32358    Desvio padrão: 0.01283
+
+A(10,100) B(20,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 4.54907    Pior indivíduo: 4.55281    Aptidão média: 4.55106    Desvio padrão: 0.00095
+
+A(10,100) B(20,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 4.47885    Pior indivíduo: 4.47955    Aptidão média: 4.47901    Desvio padrão: 0.00030
+
+A(10,100) B(20,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 5.04007    Pior indivíduo: 5.04007    Aptidão média: 5.04007    Desvio padrão: 0.00000
+
+A(10,100) B(20,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 4.39056    Pior indivíduo: 4.41251    Aptidão média: 4.39935    Desvio padrão: 0.00941
+
+A(10,100) B(20,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 4.32939    Pior indivíduo: 4.33209    Aptidão média: 4.33132    Desvio padrão: 0.00122
+
+A(10,100) B(20,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 4.31382    Pior indivíduo: 4.31382    Aptidão média: 4.31382    Desvio padrão: 0.00000
+
+A(10,100) B(20,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 4.34482    Pior indivíduo: 4.34725    Aptidão média: 4.34714    Desvio padrão: 0.00050
+
+A(10,100) B(20,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 4.32680    Pior indivíduo: 4.68877    Aptidão média: 4.34128    Desvio padrão: 0.04821
+
+A(10,100) B(20,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 5.02302    Pior indivíduo: 5.03601    Aptidão média: 5.02491    Desvio padrão: 0.00301
+
+A(10,100) B(20,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 4.53239    Pior indivíduo: 4.53262    Aptidão média: 4.53255    Desvio padrão: 0.00004
+
+A(10,100) B(20,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 4.33038    Pior indivíduo: 4.33038    Aptidão média: 4.33038    Desvio padrão: 0.00000
+
+A(10,100) B(20,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 4.32394    Pior indivíduo: 4.37991    Aptidão média: 4.33343    Desvio padrão: 0.01320
+
+A(10,100) B(20,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 5.28131    Pior indivíduo: 5.29578    Aptidão média: 5.29293    Desvio padrão: 0.00245
+
+A(10,100) B(20,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 4.31231    Pior indivíduo: 4.31244    Aptidão média: 4.31244    Desvio padrão: 0.00002
+
+A(10,100) B(20,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 4.41014    Pior indivíduo: 4.41032    Aptidão média: 4.41021    Desvio padrão: 0.00009
+
+A(10,100) B(20,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 4.30983    Pior indivíduo: 4.34134    Aptidão média: 4.31212    Desvio padrão: 0.00319
+
+A(10,100) B(20,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 4.40822    Pior indivíduo: 4.41589    Aptidão média: 4.41542    Desvio padrão: 0.00062
+
+A(10,100) B(20,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 4.31815    Pior indivíduo: 4.31839    Aptidão média: 4.31815    Desvio padrão: 0.00002
+
+A(10,100) B(20,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 4.51126    Pior indivíduo: 4.61408    Aptidão média: 4.51182    Desvio padrão: 0.00727
+
+A(10,100) B(20,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 4.31046    Pior indivíduo: 4.93464    Aptidão média: 4.33315    Desvio padrão: 0.07034
+
+A(10,100) B(20,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 4.30990    Pior indivíduo: 4.48572    Aptidão média: 4.31196    Desvio padrão: 0.01271
+
+A(10,100) B(20,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 4.30815    Pior indivíduo: 5.64709    Aptidão média: 4.32843    Desvio padrão: 0.14783
+
+A(10,100) B(20,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 4.82423    Pior indivíduo: 4.99548    Aptidão média: 4.85573    Desvio padrão: 0.01228
+
+A(10,100) B(20,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 4.31286    Pior indivíduo: 5.06451    Aptidão média: 4.34750    Desvio padrão: 0.12421
+
+A(10,100) B(20,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 4.31191    Pior indivíduo: 4.49778    Aptidão média: 4.31406    Desvio padrão: 0.01429
+
+A(10,100) B(20,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 4.30982    Pior indivíduo: 5.39529    Aptidão média: 4.33214    Desvio padrão: 0.13388
+
+A(10,100) B(20,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 4.32369    Pior indivíduo: 4.57852    Aptidão média: 4.32663    Desvio padrão: 0.02383
+
+A(10,100) B(20,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 4.32165    Pior indivíduo: 5.78774    Aptidão média: 4.41662    Desvio padrão: 0.23890
+
+A(10,100) B(20,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 4.31137    Pior indivíduo: 4.93497    Aptidão média: 4.32711    Desvio padrão: 0.08219
+
+A(10,100) B(20,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 4.31604    Pior indivíduo: 4.85155    Aptidão média: 4.32893    Desvio padrão: 0.07803
+
+A(10,100) B(20,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 4.34784    Pior indivíduo: 5.03438    Aptidão média: 4.36207    Desvio padrão: 0.07967
+-----------------------------------------
+
+Pontos A(0,20) B(100,10)
+-----------------------------------------
+
+A(0,20) B(100,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 7.15490    Pior indivíduo: 7.17777    Aptidão média: 7.16412    Desvio padrão: 0.00384
+
+A(0,20) B(100,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 7.07703    Pior indivíduo: 7.08843    Aptidão média: 7.08779    Desvio padrão: 0.00105
+
+A(0,20) B(100,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 7.18764    Pior indivíduo: 7.22069    Aptidão média: 7.21594    Desvio padrão: 0.00637
+
+A(0,20) B(100,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 7.17335    Pior indivíduo: 7.20044    Aptidão média: 7.18713    Desvio padrão: 0.01351
+
+A(0,20) B(100,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 7.13898    Pior indivíduo: 7.16836    Aptidão média: 7.15041    Desvio padrão: 0.00857
+
+A(0,20) B(100,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 7.07186    Pior indivíduo: 7.07568    Aptidão média: 7.07505    Desvio padrão: 0.00072
+
+A(0,20) B(100,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 6.99661    Pior indivíduo: 6.99661    Aptidão média: 6.99661    Desvio padrão: 0.00000
+
+A(0,20) B(100,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 7.03771    Pior indivíduo: 7.03771    Aptidão média: 7.03771    Desvio padrão: 0.00000
+
+A(0,20) B(100,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 7.04751    Pior indivíduo: 7.06451    Aptidão média: 7.05689    Desvio padrão: 0.00835
+
+A(0,20) B(100,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 7.04589    Pior indivíduo: 7.04589    Aptidão média: 7.04589    Desvio padrão: 0.00000
+
+A(0,20) B(100,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 6.98854    Pior indivíduo: 6.98854    Aptidão média: 6.98854    Desvio padrão: 0.00000
+
+A(0,20) B(100,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.050000
+Melhor indivíduo: 7.06046    Pior indivíduo: 7.06046    Aptidão média: 7.06046    Desvio padrão: 0.00000
+
+A(0,20) B(100,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 7.15469    Pior indivíduo: 7.25997    Aptidão média: 7.16881    Desvio padrão: 0.01001
+
+A(0,20) B(100,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 7.06703    Pior indivíduo: 7.08261    Aptidão média: 7.07507    Desvio padrão: 0.00335
+
+A(0,20) B(100,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 7.38604    Pior indivíduo: 7.39556    Aptidão média: 7.39371    Desvio padrão: 0.00357
+
+A(0,20) B(100,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 7.01431    Pior indivíduo: 7.01508    Aptidão média: 7.01503    Desvio padrão: 0.00006
+
+A(0,20) B(100,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 7.01395    Pior indivíduo: 7.08430    Aptidão média: 7.02620    Desvio padrão: 0.01025
+
+A(0,20) B(100,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 6.98610    Pior indivíduo: 7.07431    Aptidão média: 6.98860    Desvio padrão: 0.01000
+
+A(0,20) B(100,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 7.15766    Pior indivíduo: 7.15930    Aptidão média: 7.15914    Desvio padrão: 0.00047
+
+A(0,20) B(100,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 7.07596    Pior indivíduo: 7.07647    Aptidão média: 7.07626    Desvio padrão: 0.00025
+
+A(0,20) B(100,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 6.97039    Pior indivíduo: 7.21834    Aptidão média: 6.97842    Desvio padrão: 0.02519
+
+A(0,20) B(100,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 7.13039    Pior indivíduo: 7.13144    Aptidão média: 7.13088    Desvio padrão: 0.00016
+
+A(0,20) B(100,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 7.02517    Pior indivíduo: 7.03087    Aptidão média: 7.02862    Desvio padrão: 0.00279
+
+A(0,20) B(100,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.100000
+Melhor indivíduo: 7.11567    Pior indivíduo: 7.11567    Aptidão média: 7.11567    Desvio padrão: 0.00000
+
+A(0,20) B(100,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 7.07873    Pior indivíduo: 7.40366    Aptidão média: 7.13069    Desvio padrão: 0.08770
+
+A(0,20) B(100,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 7.16135    Pior indivíduo: 7.27866    Aptidão média: 7.17087    Desvio padrão: 0.01448
+
+A(0,20) B(100,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 7.11415    Pior indivíduo: 7.44180    Aptidão média: 7.12328    Desvio padrão: 0.04030
+
+A(0,20) B(100,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.100000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 7.06443    Pior indivíduo: 7.66328    Aptidão média: 7.08831    Desvio padrão: 0.09212
+
+A(0,20) B(100,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 7.14501    Pior indivíduo: 7.58394    Aptidão média: 7.20202    Desvio padrão: 0.07028
+
+A(0,20) B(100,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 7.07117    Pior indivíduo: 7.18879    Aptidão média: 7.07316    Desvio padrão: 0.01290
+
+A(0,20) B(100,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 7.02945    Pior indivíduo: 7.04310    Aptidão média: 7.02981    Desvio padrão: 0.00199
+
+A(0,20) B(100,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.250000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 7.19491    Pior indivíduo: 7.29910    Aptidão média: 7.19996    Desvio padrão: 0.01299
+
+A(0,20) B(100,10)
+Método de selecção: Roleta
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 7.04168    Pior indivíduo: 7.19531    Aptidão média: 7.07020    Desvio padrão: 0.03873
+
+A(0,20) B(100,10)
+Tamanho do torneio: 2
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 7.12207    Pior indivíduo: 7.53661    Aptidão média: 7.13211    Desvio padrão: 0.04953
+
+A(0,20) B(100,10)
+Tamanho do torneio: 5
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 7.00970    Pior indivíduo: 7.17936    Aptidão média: 7.01248    Desvio padrão: 0.01681
+
+A(0,20) B(100,10)
+Tamanho do torneio: 10
+Probabilidade de recombinação: 0.500000
+Probabilidade de mutação: 0.150000
+Melhor indivíduo: 7.13185    Pior indivíduo: 7.23302    Aptidão média: 7.14215    Desvio padrão: 0.01192
+-----------------------------------------
