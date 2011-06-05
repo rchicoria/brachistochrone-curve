@@ -26,9 +26,19 @@ else:
 	c[-1] = True
 	print "dinâmicas"
 
+sys.stdout.write("\nCom ou sem elitismo? (Y/N)")
+texto = sys.stdin.readline().strip()
+if texto == "Y" or texto == "y":
+	c[-2] = 0.1
+	print "Com elitismo"
+else:
+	c[-2] = 0.0
+	print "Sem Elitismo"
+
 sys.stdout.write("\nQual o teste desejado?\n")
 sys.stdout.write("1 - Nº de gerações + nº de indivíduos + nº de genes\n")
 sys.stdout.write("2 - Método de selecção + tamanho de sorteio + probabilidades de recombinação e mutação\n")
+sys.stdout.write("3 - Método de selecção + nº de genes + probabilidades de recombinação + nº de podes de recombinação\n")
 teste = int(sys.stdin.readline())
 
 melhores = []
@@ -116,6 +126,45 @@ elif teste == 2:
 					dp.append("%.5f\n" % (resultados[3]))
 		output.append("-----------------------------------------\n")
 		sys.stdout.write(output[-1])
+		
+elif teste == 3:
+	for ponto in pontos:
+		output.append("\nPontos A(%d,%d) B(%d,%d)\n" % (ponto[0], ponto[1], ponto[2], ponto[3]))
+		melhores.append(output[-1])
+		piores.append(output[-1])
+		media.append(output[-1])
+		dp.append(output[-1])
+		sys.stdout.write(output[-1])
+		output.append("-----------------------------------------\n")
+		sys.stdout.write(output[-1])
+		for i in xrange(4):
+			c[i] = ponto[i]
+		for gene in ngenes:
+			c[6] = gene
+			for recombinacao in prob_recombinacao:
+				c[9] = recombinacao
+				for n_r in nrecombinacao:
+					c[8] = n_r
+					output.append("\nA(%d,%d) B(%d,%d)\n" % (ponto[0], ponto[1], ponto[2], ponto[3]))
+					sys.stdout.write(output[-1])
+					output.append("Número de genes: %d\n" % (gene))
+					sys.stdout.write(output[-1])
+					output.append("Probabilidade de recombinação: %f\n" % (recombinacao))
+					sys.stdout.write(output[-1])
+					output.append("Número de pontos de recombinação: %d\n" % (n_r))
+					sys.stdout.write(output[-1])
+					resultados = brachistochrone(1, False, c)
+					output.append("Melhor indivíduo: %.5f    " % (resultados[0]))
+					output.append("Pior indivíduo: %.5f    " % (resultados[1]))
+					output.append("Aptidão média: %.5f    " % (resultados[2]))
+					output.append("Desvio padrão: %.5f\n" % (resultados[3]))
+					# facilitar passar para excel
+					melhores.append("%.5f\n" % (resultados[0]))
+					piores.append("%.5f\n" % (resultados[1]))
+					media.append("%.5f\n" % (resultados[2]))
+					dp.append("%.5f\n" % (resultados[3]))
+		output.append("-----------------------------------------\n")
+		sys.stdout.write(output[-1])
 
 else:
 	ok = False
@@ -124,7 +173,10 @@ if ok:
 	rep = "y"
 	if c[-1]:
 		rep = "xy"
-	url = ("resultados/teste%d representacao %s " % (teste, rep))
+	elite = "se"
+	if(c[-2]!=0.0):
+		elite=""
+	url = ("resultados/teste%d representacao %s %s" %(teste, rep, elite))
 	data = strftime("%d-%m-%Y - %Hh %Mm %Ss")
 	# relatorio geral
 	f = open(url+data+".txt", "w")
