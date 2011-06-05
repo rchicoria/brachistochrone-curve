@@ -26,9 +26,9 @@ else:
 	c[-1] = True
 	print "dinâmicas"
 
-sys.stdout.write("\nCom ou sem elitismo? (Y/N)")
+sys.stdout.write("\nCom ou sem elitismo? (com/sem)")
 texto = sys.stdin.readline().strip()
-if texto == "Y" or texto == "y":
+if texto == "Com" or texto == "com":
 	c[-2] = 0.1
 	print "Com elitismo"
 else:
@@ -38,7 +38,7 @@ else:
 sys.stdout.write("\nQual o teste desejado?\n")
 sys.stdout.write("1 - Nº de gerações + nº de indivíduos + nº de genes\n")
 sys.stdout.write("2 - Método de selecção + tamanho de sorteio + probabilidades de recombinação e mutação\n")
-sys.stdout.write("3 - Método de selecção + nº de genes + probabilidades de recombinação + nº de podes de recombinação\n")
+sys.stdout.write("3 - Nº de genes + probabilidades de recombinação + nº de podes de recombinação\n")
 teste = int(sys.stdin.readline())
 
 melhores = []
