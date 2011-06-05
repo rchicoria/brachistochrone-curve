@@ -1,0 +1,784 @@
+
+Pontos A(0,100) B(30,50)
+-----------------------------------------
+
+A(0,100) B(30,50)
+Número de genes: 15
+Número de indivíduos: 50
+Número de gerações: 20
+Melhor indivíduo: 5.79718    Pior indivíduo: 11.83731    Aptidão média: 6.20218    Desvio padrão: 0.81573
+
+A(0,100) B(30,50)
+Número de genes: 15
+Número de indivíduos: 50
+Número de gerações: 50
+Melhor indivíduo: 5.65921    Pior indivíduo: 10.29358    Aptidão média: 5.87996    Desvio padrão: 0.73461
+
+A(0,100) B(30,50)
+Número de genes: 15
+Número de indivíduos: 50
+Número de gerações: 100
+Melhor indivíduo: 5.26532    Pior indivíduo: 8.36791    Aptidão média: 5.47117    Desvio padrão: 0.66600
+
+A(0,100) B(30,50)
+Número de genes: 15
+Número de indivíduos: 50
+Número de gerações: 250
+Melhor indivíduo: 4.02167    Pior indivíduo: 6.41544    Aptidão média: 4.09389    Desvio padrão: 0.36562
+
+A(0,100) B(30,50)
+Número de genes: 15
+Número de indivíduos: 100
+Número de gerações: 20
+Melhor indivíduo: 4.78752    Pior indivíduo: 9.21209    Aptidão média: 5.46879    Desvio padrão: 0.77126
+
+A(0,100) B(30,50)
+Número de genes: 15
+Número de indivíduos: 100
+Número de gerações: 50
+Melhor indivíduo: 4.55158    Pior indivíduo: 9.04552    Aptidão média: 5.12176    Desvio padrão: 0.75545
+
+A(0,100) B(30,50)
+Número de genes: 15
+Número de indivíduos: 100
+Número de gerações: 100
+Melhor indivíduo: 4.34078    Pior indivíduo: 8.75828    Aptidão média: 4.51501    Desvio padrão: 0.62443
+
+A(0,100) B(30,50)
+Número de genes: 15
+Número de indivíduos: 100
+Número de gerações: 250
+Melhor indivíduo: 3.67494    Pior indivíduo: 8.68415    Aptidão média: 3.81499    Desvio padrão: 0.66346
+
+A(0,100) B(30,50)
+Número de genes: 15
+Número de indivíduos: 200
+Número de gerações: 20
+Melhor indivíduo: 5.44704    Pior indivíduo: 10.49734    Aptidão média: 6.42488    Desvio padrão: 0.80427
+
+A(0,100) B(30,50)
+Número de genes: 15
+Número de indivíduos: 200
+Número de gerações: 50
+Melhor indivíduo: 4.20787    Pior indivíduo: 9.64325    Aptidão média: 4.53352    Desvio padrão: 0.73275
+
+A(0,100) B(30,50)
+Número de genes: 15
+Número de indivíduos: 200
+Número de gerações: 100
+Melhor indivíduo: 4.78729    Pior indivíduo: 10.00882    Aptidão média: 4.98578    Desvio padrão: 0.77451
+
+A(0,100) B(30,50)
+Número de genes: 15
+Número de indivíduos: 200
+Número de gerações: 250
+Melhor indivíduo: 3.74834    Pior indivíduo: 6.80697    Aptidão média: 3.93299    Desvio padrão: 0.58084
+
+A(0,100) B(30,50)
+Número de genes: 15
+Número de indivíduos: 500
+Número de gerações: 20
+Melhor indivíduo: 5.20339    Pior indivíduo: 12.53600    Aptidão média: 7.01090    Desvio padrão: 1.01539
+
+A(0,100) B(30,50)
+Número de genes: 15
+Número de indivíduos: 500
+Número de gerações: 50
+Melhor indivíduo: 4.19681    Pior indivíduo: 9.65780    Aptidão média: 4.50269    Desvio padrão: 0.75164
+
+A(0,100) B(30,50)
+Número de genes: 15
+Número de indivíduos: 500
+Número de gerações: 100
+Melhor indivíduo: 3.72952    Pior indivíduo: 8.05840    Aptidão média: 3.92500    Desvio padrão: 0.68127
+
+A(0,100) B(30,50)
+Número de genes: 15
+Número de indivíduos: 500
+Número de gerações: 250
+Melhor indivíduo: 4.65586    Pior indivíduo: 11.07256    Aptidão média: 4.81404    Desvio padrão: 0.73593
+
+A(0,100) B(30,50)
+Número de genes: 30
+Número de indivíduos: 50
+Número de gerações: 20
+Melhor indivíduo: 15.87035    Pior indivíduo: 22.79826    Aptidão média: 17.81672    Desvio padrão: 1.29589
+
+A(0,100) B(30,50)
+Número de genes: 30
+Número de indivíduos: 50
+Número de gerações: 50
+Melhor indivíduo: 10.30923    Pior indivíduo: 16.69610    Aptidão média: 10.54965    Desvio padrão: 1.05292
+
+A(0,100) B(30,50)
+Número de genes: 30
+Número de indivíduos: 50
+Número de gerações: 100
+Melhor indivíduo: 8.35598    Pior indivíduo: 11.30485    Aptidão média: 8.62930    Desvio padrão: 0.65657
+
+A(0,100) B(30,50)
+Número de genes: 30
+Número de indivíduos: 50
+Número de gerações: 250
+Melhor indivíduo: 6.84703    Pior indivíduo: 9.44209    Aptidão média: 7.14725    Desvio padrão: 0.71143
+
+A(0,100) B(30,50)
+Número de genes: 30
+Número de indivíduos: 100
+Número de gerações: 20
+Melhor indivíduo: 10.56193    Pior indivíduo: 19.71911    Aptidão média: 13.26872    Desvio padrão: 1.38248
+
+A(0,100) B(30,50)
+Número de genes: 30
+Número de indivíduos: 100
+Número de gerações: 50
+Melhor indivíduo: 8.85209    Pior indivíduo: 13.37080    Aptidão média: 9.21931    Desvio padrão: 0.84573
+
+A(0,100) B(30,50)
+Número de genes: 30
+Número de indivíduos: 100
+Número de gerações: 100
+Melhor indivíduo: 7.73581    Pior indivíduo: 12.28187    Aptidão média: 8.00358    Desvio padrão: 0.66694
+
+A(0,100) B(30,50)
+Número de genes: 30
+Número de indivíduos: 100
+Número de gerações: 250
+Melhor indivíduo: 8.24370    Pior indivíduo: 12.00232    Aptidão média: 8.39107    Desvio padrão: 0.54230
+
+A(0,100) B(30,50)
+Número de genes: 30
+Número de indivíduos: 200
+Número de gerações: 20
+Melhor indivíduo: 10.36229    Pior indivíduo: 18.83376    Aptidão média: 13.88217    Desvio padrão: 1.38617
+
+A(0,100) B(30,50)
+Número de genes: 30
+Número de indivíduos: 200
+Número de gerações: 50
+Melhor indivíduo: 7.23405    Pior indivíduo: 11.27487    Aptidão média: 7.81192    Desvio padrão: 0.44511
+
+A(0,100) B(30,50)
+Número de genes: 30
+Número de indivíduos: 200
+Número de gerações: 100
+Melhor indivíduo: 5.99930    Pior indivíduo: 9.54097    Aptidão média: 6.13992    Desvio padrão: 0.48608
+
+A(0,100) B(30,50)
+Número de genes: 30
+Número de indivíduos: 200
+Número de gerações: 250
+Melhor indivíduo: 5.93096    Pior indivíduo: 11.92890    Aptidão média: 6.18394    Desvio padrão: 0.90717
+
+A(0,100) B(30,50)
+Número de genes: 30
+Número de indivíduos: 500
+Número de gerações: 20
+Melhor indivíduo: 9.05607    Pior indivíduo: 19.05612    Aptidão média: 11.63501    Desvio padrão: 1.30422
+
+A(0,100) B(30,50)
+Número de genes: 30
+Número de indivíduos: 500
+Número de gerações: 50
+Melhor indivíduo: 5.86564    Pior indivíduo: 10.27280    Aptidão média: 6.59519    Desvio padrão: 0.53395
+
+A(0,100) B(30,50)
+Número de genes: 30
+Número de indivíduos: 500
+Número de gerações: 100
+Melhor indivíduo: 4.98952    Pior indivíduo: 8.62911    Aptidão média: 5.27202    Desvio padrão: 0.53079
+
+A(0,100) B(30,50)
+Número de genes: 30
+Número de indivíduos: 500
+Número de gerações: 250
+Melhor indivíduo: 5.26758    Pior indivíduo: 11.73895    Aptidão média: 5.45290    Desvio padrão: 0.77014
+-----------------------------------------
+
+Pontos A(0,10) B(3,5)
+-----------------------------------------
+
+A(0,10) B(3,5)
+Número de genes: 15
+Número de indivíduos: 50
+Número de gerações: 20
+Melhor indivíduo: 1.98554    Pior indivíduo: 3.15772    Aptidão média: 2.23909    Desvio padrão: 0.17898
+
+A(0,10) B(3,5)
+Número de genes: 15
+Número de indivíduos: 50
+Número de gerações: 50
+Melhor indivíduo: 1.92509    Pior indivíduo: 2.21334    Aptidão média: 1.93416    Desvio padrão: 0.04288
+
+A(0,10) B(3,5)
+Número de genes: 15
+Número de indivíduos: 50
+Número de gerações: 100
+Melhor indivíduo: 1.54680    Pior indivíduo: 2.28511    Aptidão média: 1.60745    Desvio padrão: 0.14170
+
+A(0,10) B(3,5)
+Número de genes: 15
+Número de indivíduos: 50
+Número de gerações: 250
+Melhor indivíduo: 1.27231    Pior indivíduo: 1.90632    Aptidão média: 1.29170    Desvio padrão: 0.09364
+
+A(0,10) B(3,5)
+Número de genes: 15
+Número de indivíduos: 100
+Número de gerações: 20
+Melhor indivíduo: 1.54793    Pior indivíduo: 3.44551    Aptidão média: 1.83890    Desvio padrão: 0.28536
+
+A(0,10) B(3,5)
+Número de genes: 15
+Número de indivíduos: 100
+Número de gerações: 50
+Melhor indivíduo: 1.57223    Pior indivíduo: 2.39470    Aptidão média: 1.62592    Desvio padrão: 0.10561
+
+A(0,10) B(3,5)
+Número de genes: 15
+Número de indivíduos: 100
+Número de gerações: 100
+Melhor indivíduo: 1.63197    Pior indivíduo: 2.42082    Aptidão média: 1.69294    Desvio padrão: 0.18166
+
+A(0,10) B(3,5)
+Número de genes: 15
+Número de indivíduos: 100
+Número de gerações: 250
+Melhor indivíduo: 1.29410    Pior indivíduo: 2.48394    Aptidão média: 1.35686    Desvio padrão: 0.20409
+
+A(0,10) B(3,5)
+Número de genes: 15
+Número de indivíduos: 200
+Número de gerações: 20
+Melhor indivíduo: 1.75569    Pior indivíduo: 3.14091    Aptidão média: 2.09630    Desvio padrão: 0.19700
+
+A(0,10) B(3,5)
+Número de genes: 15
+Número de indivíduos: 200
+Número de gerações: 50
+Melhor indivíduo: 1.38118    Pior indivíduo: 2.75032    Aptidão média: 1.45686    Desvio padrão: 0.18158
+
+A(0,10) B(3,5)
+Número de genes: 15
+Número de indivíduos: 200
+Número de gerações: 100
+Melhor indivíduo: 1.28659    Pior indivíduo: 2.90347    Aptidão média: 1.35004    Desvio padrão: 0.21390
+
+A(0,10) B(3,5)
+Número de genes: 15
+Número de indivíduos: 200
+Número de gerações: 250
+Melhor indivíduo: 1.57423    Pior indivíduo: 3.65702    Aptidão média: 1.70882    Desvio padrão: 0.37046
+
+A(0,10) B(3,5)
+Número de genes: 15
+Número de indivíduos: 500
+Número de gerações: 20
+Melhor indivíduo: 1.38472    Pior indivíduo: 3.55771    Aptidão média: 1.91909    Desvio padrão: 0.31156
+
+A(0,10) B(3,5)
+Número de genes: 15
+Número de indivíduos: 500
+Número de gerações: 50
+Melhor indivíduo: 1.46440    Pior indivíduo: 3.26860    Aptidão média: 1.50501    Desvio padrão: 0.16765
+
+A(0,10) B(3,5)
+Número de genes: 15
+Número de indivíduos: 500
+Número de gerações: 100
+Melhor indivíduo: 1.46619    Pior indivíduo: 3.73221    Aptidão média: 1.53840    Desvio padrão: 0.27846
+
+A(0,10) B(3,5)
+Número de genes: 15
+Número de indivíduos: 500
+Número de gerações: 250
+Melhor indivíduo: 1.49927    Pior indivíduo: 3.68031    Aptidão média: 1.54546    Desvio padrão: 0.22680
+
+A(0,10) B(3,5)
+Número de genes: 30
+Número de indivíduos: 50
+Número de gerações: 20
+Melhor indivíduo: 3.80406    Pior indivíduo: 5.24441    Aptidão média: 3.97706    Desvio padrão: 0.25165
+
+A(0,10) B(3,5)
+Número de genes: 30
+Número de indivíduos: 50
+Número de gerações: 50
+Melhor indivíduo: 2.40492    Pior indivíduo: 3.84579    Aptidão média: 2.91284    Desvio padrão: 0.26597
+
+A(0,10) B(3,5)
+Número de genes: 30
+Número de indivíduos: 50
+Número de gerações: 100
+Melhor indivíduo: 2.76136    Pior indivíduo: 3.88969    Aptidão média: 2.89026    Desvio padrão: 0.25646
+
+A(0,10) B(3,5)
+Número de genes: 30
+Número de indivíduos: 50
+Número de gerações: 250
+Melhor indivíduo: 2.02809    Pior indivíduo: 2.50940    Aptidão média: 2.05354    Desvio padrão: 0.09539
+
+A(0,10) B(3,5)
+Número de genes: 30
+Número de indivíduos: 100
+Número de gerações: 20
+Melhor indivíduo: 3.50207    Pior indivíduo: 5.47946    Aptidão média: 4.14811    Desvio padrão: 0.39178
+
+A(0,10) B(3,5)
+Número de genes: 30
+Número de indivíduos: 100
+Número de gerações: 50
+Melhor indivíduo: 1.97365    Pior indivíduo: 3.33657    Aptidão média: 2.05035    Desvio padrão: 0.18708
+
+A(0,10) B(3,5)
+Número de genes: 30
+Número de indivíduos: 100
+Número de gerações: 100
+Melhor indivíduo: 2.18642    Pior indivíduo: 4.09997    Aptidão média: 2.33588    Desvio padrão: 0.37148
+
+A(0,10) B(3,5)
+Número de genes: 30
+Número de indivíduos: 100
+Número de gerações: 250
+Melhor indivíduo: 1.78131    Pior indivíduo: 3.20439    Aptidão média: 1.84027    Desvio padrão: 0.21054
+
+A(0,10) B(3,5)
+Número de genes: 30
+Número de indivíduos: 200
+Número de gerações: 20
+Melhor indivíduo: 3.14985    Pior indivíduo: 5.47577    Aptidão média: 4.28744    Desvio padrão: 0.40509
+
+A(0,10) B(3,5)
+Número de genes: 30
+Número de indivíduos: 200
+Número de gerações: 50
+Melhor indivíduo: 2.20633    Pior indivíduo: 3.60464    Aptidão média: 2.48111    Desvio padrão: 0.20958
+
+A(0,10) B(3,5)
+Número de genes: 30
+Número de indivíduos: 200
+Número de gerações: 100
+Melhor indivíduo: 2.15692    Pior indivíduo: 3.36897    Aptidão média: 2.23198    Desvio padrão: 0.16215
+
+A(0,10) B(3,5)
+Número de genes: 30
+Número de indivíduos: 200
+Número de gerações: 250
+Melhor indivíduo: 1.72988    Pior indivíduo: 4.13167    Aptidão média: 1.80664    Desvio padrão: 0.33003
+
+A(0,10) B(3,5)
+Número de genes: 30
+Número de indivíduos: 500
+Número de gerações: 20
+Melhor indivíduo: 3.24038    Pior indivíduo: 6.51152    Aptidão média: 4.26300    Desvio padrão: 0.50782
+
+A(0,10) B(3,5)
+Número de genes: 30
+Número de indivíduos: 500
+Número de gerações: 50
+Melhor indivíduo: 1.99846    Pior indivíduo: 3.74546    Aptidão média: 2.28257    Desvio padrão: 0.19977
+
+A(0,10) B(3,5)
+Número de genes: 30
+Número de indivíduos: 500
+Número de gerações: 100
+Melhor indivíduo: 1.47084    Pior indivíduo: 2.69220    Aptidão média: 1.53550    Desvio padrão: 0.17746
+
+A(0,10) B(3,5)
+Número de genes: 30
+Número de indivíduos: 500
+Número de gerações: 250
+Melhor indivíduo: 1.47695    Pior indivíduo: 3.44799    Aptidão média: 1.54741    Desvio padrão: 0.23688
+-----------------------------------------
+
+Pontos A(10,100) B(20,10)
+-----------------------------------------
+
+A(10,100) B(20,10)
+Número de genes: 15
+Número de indivíduos: 50
+Número de gerações: 20
+Melhor indivíduo: 5.14782    Pior indivíduo: 7.62772    Aptidão média: 6.11479    Desvio padrão: 0.56740
+
+A(10,100) B(20,10)
+Número de genes: 15
+Número de indivíduos: 50
+Número de gerações: 50
+Melhor indivíduo: 4.54359    Pior indivíduo: 4.93815    Aptidão média: 4.55707    Desvio padrão: 0.05908
+
+A(10,100) B(20,10)
+Número de genes: 15
+Número de indivíduos: 50
+Número de gerações: 100
+Melhor indivíduo: 4.90160    Pior indivíduo: 8.43630    Aptidão média: 5.20563    Desvio padrão: 0.86234
+
+A(10,100) B(20,10)
+Número de genes: 15
+Número de indivíduos: 50
+Número de gerações: 250
+Melhor indivíduo: 4.32187    Pior indivíduo: 9.33538    Aptidão média: 4.58231    Desvio padrão: 0.93590
+
+A(10,100) B(20,10)
+Número de genes: 15
+Número de indivíduos: 100
+Número de gerações: 20
+Melhor indivíduo: 5.17107    Pior indivíduo: 9.71927    Aptidão média: 5.67159    Desvio padrão: 0.68703
+
+A(10,100) B(20,10)
+Número de genes: 15
+Número de indivíduos: 100
+Número de gerações: 50
+Melhor indivíduo: 5.27712    Pior indivíduo: 9.38329    Aptidão média: 5.57750    Desvio padrão: 0.55028
+
+A(10,100) B(20,10)
+Número de genes: 15
+Número de indivíduos: 100
+Número de gerações: 100
+Melhor indivíduo: 4.56397    Pior indivíduo: 8.00917    Aptidão média: 4.70032    Desvio padrão: 0.52519
+
+A(10,100) B(20,10)
+Número de genes: 15
+Número de indivíduos: 100
+Número de gerações: 250
+Melhor indivíduo: 4.32533    Pior indivíduo: 10.20484    Aptidão média: 4.61327    Desvio padrão: 0.99431
+
+A(10,100) B(20,10)
+Número de genes: 15
+Número de indivíduos: 200
+Número de gerações: 20
+Melhor indivíduo: 4.68713    Pior indivíduo: 9.38282    Aptidão média: 5.97898    Desvio padrão: 0.63567
+
+A(10,100) B(20,10)
+Número de genes: 15
+Número de indivíduos: 200
+Número de gerações: 50
+Melhor indivíduo: 4.33564    Pior indivíduo: 8.86914    Aptidão média: 4.51367    Desvio padrão: 0.51582
+
+A(10,100) B(20,10)
+Número de genes: 15
+Número de indivíduos: 200
+Número de gerações: 100
+Melhor indivíduo: 4.31606    Pior indivíduo: 8.31800    Aptidão média: 4.49301    Desvio padrão: 0.59303
+
+A(10,100) B(20,10)
+Número de genes: 15
+Número de indivíduos: 200
+Número de gerações: 250
+Melhor indivíduo: 4.30582    Pior indivíduo: 10.55179    Aptidão média: 4.48331    Desvio padrão: 0.83148
+
+A(10,100) B(20,10)
+Número de genes: 15
+Número de indivíduos: 500
+Número de gerações: 20
+Melhor indivíduo: 4.59051    Pior indivíduo: 12.14279    Aptidão média: 6.18812    Desvio padrão: 1.02462
+
+A(10,100) B(20,10)
+Número de genes: 15
+Número de indivíduos: 500
+Número de gerações: 50
+Melhor indivíduo: 4.30985    Pior indivíduo: 9.71155    Aptidão média: 4.47284    Desvio padrão: 0.65769
+
+A(10,100) B(20,10)
+Número de genes: 15
+Número de indivíduos: 500
+Número de gerações: 100
+Melhor indivíduo: 4.31099    Pior indivíduo: 10.80589    Aptidão média: 4.48445    Desvio padrão: 0.72711
+
+A(10,100) B(20,10)
+Número de genes: 15
+Número de indivíduos: 500
+Número de gerações: 250
+Melhor indivíduo: 4.30988    Pior indivíduo: 12.02626    Aptidão média: 4.51411    Desvio padrão: 0.77766
+
+A(10,100) B(20,10)
+Número de genes: 30
+Número de indivíduos: 50
+Número de gerações: 20
+Melhor indivíduo: 13.69853    Pior indivíduo: 18.05726    Aptidão média: 15.15568    Desvio padrão: 0.93583
+
+A(10,100) B(20,10)
+Número de genes: 30
+Número de indivíduos: 50
+Número de gerações: 50
+Melhor indivíduo: 10.38608    Pior indivíduo: 15.26568    Aptidão média: 10.66089    Desvio padrão: 0.69521
+
+A(10,100) B(20,10)
+Número de genes: 30
+Número de indivíduos: 50
+Número de gerações: 100
+Melhor indivíduo: 7.66231    Pior indivíduo: 11.31990    Aptidão média: 7.96645    Desvio padrão: 0.64099
+
+A(10,100) B(20,10)
+Número de genes: 30
+Número de indivíduos: 50
+Número de gerações: 250
+Melhor indivíduo: 6.75125    Pior indivíduo: 12.65505    Aptidão média: 7.11506    Desvio padrão: 1.17004
+
+A(10,100) B(20,10)
+Número de genes: 30
+Número de indivíduos: 100
+Número de gerações: 20
+Melhor indivíduo: 12.69194    Pior indivíduo: 18.35593    Aptidão média: 14.80510    Desvio padrão: 0.99483
+
+A(10,100) B(20,10)
+Número de genes: 30
+Número de indivíduos: 100
+Número de gerações: 50
+Melhor indivíduo: 8.41702    Pior indivíduo: 13.24138    Aptidão média: 8.72333    Desvio padrão: 1.00633
+
+A(10,100) B(20,10)
+Número de genes: 30
+Número de indivíduos: 100
+Número de gerações: 100
+Melhor indivíduo: 6.82337    Pior indivíduo: 9.19688    Aptidão média: 6.99861    Desvio padrão: 0.38931
+
+A(10,100) B(20,10)
+Número de genes: 30
+Número de indivíduos: 100
+Número de gerações: 250
+Melhor indivíduo: 5.78493    Pior indivíduo: 13.30403    Aptidão média: 6.36949    Desvio padrão: 1.36060
+
+A(10,100) B(20,10)
+Número de genes: 30
+Número de indivíduos: 200
+Número de gerações: 20
+Melhor indivíduo: 10.59271    Pior indivíduo: 17.88772    Aptidão média: 13.85943    Desvio padrão: 1.50892
+
+A(10,100) B(20,10)
+Número de genes: 30
+Número de indivíduos: 200
+Número de gerações: 50
+Melhor indivíduo: 5.92193    Pior indivíduo: 11.45044    Aptidão média: 6.66287    Desvio padrão: 0.74687
+
+A(10,100) B(20,10)
+Número de genes: 30
+Número de indivíduos: 200
+Número de gerações: 100
+Melhor indivíduo: 5.98575    Pior indivíduo: 10.34129    Aptidão média: 6.13844    Desvio padrão: 0.52812
+
+A(10,100) B(20,10)
+Número de genes: 30
+Número de indivíduos: 200
+Número de gerações: 250
+Melhor indivíduo: 5.64812    Pior indivíduo: 9.75739    Aptidão média: 5.80474    Desvio padrão: 0.51520
+
+A(10,100) B(20,10)
+Número de genes: 30
+Número de indivíduos: 500
+Número de gerações: 20
+Melhor indivíduo: 8.55771    Pior indivíduo: 20.78933    Aptidão média: 14.21820    Desvio padrão: 1.76222
+
+A(10,100) B(20,10)
+Número de genes: 30
+Número de indivíduos: 500
+Número de gerações: 50
+Melhor indivíduo: 5.97843    Pior indivíduo: 13.41548    Aptidão média: 6.87545    Desvio padrão: 1.01318
+
+A(10,100) B(20,10)
+Número de genes: 30
+Número de indivíduos: 500
+Número de gerações: 100
+Melhor indivíduo: 5.07190    Pior indivíduo: 11.36392    Aptidão média: 5.36333    Desvio padrão: 0.74783
+
+A(10,100) B(20,10)
+Número de genes: 30
+Número de indivíduos: 500
+Número de gerações: 250
+Melhor indivíduo: 5.05188    Pior indivíduo: 10.40350    Aptidão média: 5.25096    Desvio padrão: 0.75722
+-----------------------------------------
+
+Pontos A(0,20) B(100,10)
+-----------------------------------------
+
+A(0,20) B(100,10)
+Número de genes: 15
+Número de indivíduos: 50
+Número de gerações: 20
+Melhor indivíduo: 7.61103    Pior indivíduo: 7.99991    Aptidão média: 7.72281    Desvio padrão: 0.11201
+
+A(0,20) B(100,10)
+Número de genes: 15
+Número de indivíduos: 50
+Número de gerações: 50
+Melhor indivíduo: 7.55848    Pior indivíduo: 8.69312    Aptidão média: 7.61861    Desvio padrão: 0.22390
+
+A(0,20) B(100,10)
+Número de genes: 15
+Número de indivíduos: 50
+Número de gerações: 100
+Melhor indivíduo: 7.35232    Pior indivíduo: 9.56019    Aptidão média: 7.45586    Desvio padrão: 0.36612
+
+A(0,20) B(100,10)
+Número de genes: 15
+Número de indivíduos: 50
+Número de gerações: 250
+Melhor indivíduo: 7.22787    Pior indivíduo: 10.02823    Aptidão média: 7.37939    Desvio padrão: 0.50693
+
+A(0,20) B(100,10)
+Número de genes: 15
+Número de indivíduos: 100
+Número de gerações: 20
+Melhor indivíduo: 7.79116    Pior indivíduo: 10.03942    Aptidão média: 8.09364    Desvio padrão: 0.25857
+
+A(0,20) B(100,10)
+Número de genes: 15
+Número de indivíduos: 100
+Número de gerações: 50
+Melhor indivíduo: 7.08775    Pior indivíduo: 8.79960    Aptidão média: 7.19508    Desvio padrão: 0.25033
+
+A(0,20) B(100,10)
+Número de genes: 15
+Número de indivíduos: 100
+Número de gerações: 100
+Melhor indivíduo: 7.02252    Pior indivíduo: 9.85819    Aptidão média: 7.13666    Desvio padrão: 0.43007
+
+A(0,20) B(100,10)
+Número de genes: 15
+Número de indivíduos: 100
+Número de gerações: 250
+Melhor indivíduo: 7.03333    Pior indivíduo: 8.15209    Aptidão média: 7.07533    Desvio padrão: 0.14714
+
+A(0,20) B(100,10)
+Número de genes: 15
+Número de indivíduos: 200
+Número de gerações: 20
+Melhor indivíduo: 7.21620    Pior indivíduo: 10.65419    Aptidão média: 7.73679    Desvio padrão: 0.44203
+
+A(0,20) B(100,10)
+Número de genes: 15
+Número de indivíduos: 200
+Número de gerações: 50
+Melhor indivíduo: 7.38200    Pior indivíduo: 9.64195    Aptidão média: 7.46509    Desvio padrão: 0.22235
+
+A(0,20) B(100,10)
+Número de genes: 15
+Número de indivíduos: 200
+Número de gerações: 100
+Melhor indivíduo: 7.00680    Pior indivíduo: 10.24514    Aptidão média: 7.10580    Desvio padrão: 0.41438
+
+A(0,20) B(100,10)
+Número de genes: 15
+Número de indivíduos: 200
+Número de gerações: 250
+Melhor indivíduo: 7.03540    Pior indivíduo: 9.55495    Aptidão média: 7.09713    Desvio padrão: 0.26774
+
+A(0,20) B(100,10)
+Número de genes: 15
+Número de indivíduos: 500
+Número de gerações: 20
+Melhor indivíduo: 7.18518    Pior indivíduo: 10.24784    Aptidão média: 7.74531    Desvio padrão: 0.40761
+
+A(0,20) B(100,10)
+Número de genes: 15
+Número de indivíduos: 500
+Número de gerações: 50
+Melhor indivíduo: 7.03287    Pior indivíduo: 10.02062    Aptidão média: 7.15047    Desvio padrão: 0.36822
+
+A(0,20) B(100,10)
+Número de genes: 15
+Número de indivíduos: 500
+Número de gerações: 100
+Melhor indivíduo: 7.04113    Pior indivíduo: 9.89552    Aptidão média: 7.12359    Desvio padrão: 0.34323
+
+A(0,20) B(100,10)
+Número de genes: 15
+Número de indivíduos: 500
+Número de gerações: 250
+Melhor indivíduo: 6.97077    Pior indivíduo: 10.45290    Aptidão média: 7.02541    Desvio padrão: 0.26662
+
+A(0,20) B(100,10)
+Número de genes: 30
+Número de indivíduos: 50
+Número de gerações: 20
+Melhor indivíduo: 9.99963    Pior indivíduo: 11.82714    Aptidão média: 10.56767    Desvio padrão: 0.25893
+
+A(0,20) B(100,10)
+Número de genes: 30
+Número de indivíduos: 50
+Número de gerações: 50
+Melhor indivíduo: 8.66371    Pior indivíduo: 10.16986    Aptidão média: 8.78495    Desvio padrão: 0.20636
+
+A(0,20) B(100,10)
+Número de genes: 30
+Número de indivíduos: 50
+Número de gerações: 100
+Melhor indivíduo: 8.38379    Pior indivíduo: 9.03676    Aptidão média: 8.42856    Desvio padrão: 0.10566
+
+A(0,20) B(100,10)
+Número de genes: 30
+Número de indivíduos: 50
+Número de gerações: 250
+Melhor indivíduo: 7.44648    Pior indivíduo: 9.00965    Aptidão média: 7.49031    Desvio padrão: 0.22855
+
+A(0,20) B(100,10)
+Número de genes: 30
+Número de indivíduos: 100
+Número de gerações: 20
+Melhor indivíduo: 9.34256    Pior indivíduo: 13.12068    Aptidão média: 10.24176    Desvio padrão: 0.51000
+
+A(0,20) B(100,10)
+Número de genes: 30
+Número de indivíduos: 100
+Número de gerações: 50
+Melhor indivíduo: 8.86462    Pior indivíduo: 10.35765    Aptidão média: 9.00771    Desvio padrão: 0.21387
+
+A(0,20) B(100,10)
+Número de genes: 30
+Número de indivíduos: 100
+Número de gerações: 100
+Melhor indivíduo: 8.25848    Pior indivíduo: 9.49140    Aptidão média: 8.35004    Desvio padrão: 0.21093
+
+A(0,20) B(100,10)
+Número de genes: 30
+Número de indivíduos: 100
+Número de gerações: 250
+Melhor indivíduo: 7.85185    Pior indivíduo: 10.54956    Aptidão média: 7.92352    Desvio padrão: 0.31891
+
+A(0,20) B(100,10)
+Número de genes: 30
+Número de indivíduos: 200
+Número de gerações: 20
+Melhor indivíduo: 9.32429    Pior indivíduo: 12.46039    Aptidão média: 10.16184    Desvio padrão: 0.46250
+
+A(0,20) B(100,10)
+Número de genes: 30
+Número de indivíduos: 200
+Número de gerações: 50
+Melhor indivíduo: 8.19730    Pior indivíduo: 10.81388    Aptidão média: 8.40222    Desvio padrão: 0.28993
+
+A(0,20) B(100,10)
+Número de genes: 30
+Número de indivíduos: 200
+Número de gerações: 100
+Melhor indivíduo: 7.52381    Pior indivíduo: 9.43575    Aptidão média: 7.60019    Desvio padrão: 0.26827
+
+A(0,20) B(100,10)
+Número de genes: 30
+Número de indivíduos: 200
+Número de gerações: 250
+Melhor indivíduo: 7.38238    Pior indivíduo: 10.42838    Aptidão média: 7.49980    Desvio padrão: 0.45514
+
+A(0,20) B(100,10)
+Número de genes: 30
+Número de indivíduos: 500
+Número de gerações: 20
+Melhor indivíduo: 8.73927    Pior indivíduo: 12.98487    Aptidão média: 10.11796    Desvio padrão: 0.54430
+
+A(0,20) B(100,10)
+Número de genes: 30
+Número de indivíduos: 500
+Número de gerações: 50
+Melhor indivíduo: 7.92998    Pior indivíduo: 10.72682    Aptidão média: 8.23380    Desvio padrão: 0.32508
+
+A(0,20) B(100,10)
+Número de genes: 30
+Número de indivíduos: 500
+Número de gerações: 100
+Melhor indivíduo: 7.23587    Pior indivíduo: 9.91125    Aptidão média: 7.31290    Desvio padrão: 0.29607
+
+A(0,20) B(100,10)
+Número de genes: 30
+Número de indivíduos: 500
+Número de gerações: 250
+Melhor indivíduo: 7.34366    Pior indivíduo: 9.93013    Aptidão média: 7.42217    Desvio padrão: 0.31960
+-----------------------------------------
