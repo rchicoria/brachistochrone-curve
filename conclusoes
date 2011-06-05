@@ -1,0 +1,36 @@
+Pontos
+
+Através da análise das diversas tabelas, foi possível analisar as diferenças de valores das
+aptidões dos diversos conjuntos de pontos. Essa análise permitiu chegar a algumas conclusões
+que são de seguida enunciadas.
+O segundo conjunto de pontos equivale ao primeiro conjunto de pontos numa escala 10 vezes
+inferior. Como se pode ver nos resultados de qualquer tabela, a sua aptidão é sempre muito
+melhor que a do primeiro conjunto de pontos. Isso acontece porque, como os pontos estão a
+uma escala menor, encontram-se mais próximos e que a curva que os une e que traça o
+caminho do objecto é mais curta. Assim, é esperado que o objecto demore menos tempo a percorrer
+essa curva.
+O terceiro conjunto de pontos define uma recta com um grande declive, e o quarto conjunto de pontos
+define uma recta com um declive muito reduzido. Como se pode verificar, as aptidões do terceiro
+conjunto de pontos são sempre melhores que as aptidões do quarto conjunto de pontos. Isso
+acontece porque o efeito da gravidade num percurso mais íngreme (terceiro conjunto
+de pontos) faz-se sentir muito mais do que num percurso mais plano, o que leva a que o objecto
+percorra a curva num menor espaço de tempo.
+
+
+Tabela A.1.1
+
+Para 15 genes nota-se que em 20 gerações a aptidão é sempre pior, mas que para as restantes parece
+não ter uma relação directa. Tal significa que, entre as 20 e as 50 gerações, para 15 genes, a
+população convergiu para um máximo.
+Para 30 genes já se verifica que sempre que o número de gerações aumenta a aptidão melhora. Esse
+comportamento encontra-se dentro do esperado, pois a quanto mais gerações a população está sujeita,
+mais esta evolui e melhora a sua aptidão.
+
+Assim podemos concluir que para uma menor precisão (menos genes) o algoritmo vai convergir muito
+mais rapidamente, visto que há muito menos informação para ser modificada ao longo das gerações.
+
+Quanto maior for o número de indivíduos de uma população, melhor é a sua aptidão. Esta relação
+é mais notória para indivíduos com um maior número de genes. Tal comportamento é explicado por,
+tal como se verificou anteriormente, as populações de indivíduos com um número de genes menor
+converger muito mais rapidamente para um máximo, ou seja, o efeito do número de indivíduos dessa
+população é minorado.
