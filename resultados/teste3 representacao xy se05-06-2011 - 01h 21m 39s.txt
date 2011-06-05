@@ -1,0 +1,448 @@
+
+Pontos A(0,100) B(30,50)
+-----------------------------------------
+
+A(0,100) B(30,50)
+Número de genes: 15
+Probabilidade de recombinação: 0.100000
+Número de pontos de recombinação: 1
+Melhor indivíduo: 5.10929    Pior indivíduo: 9.69486    Aptidão média: 5.25798    Desvio padrão: 0.55805
+
+A(0,100) B(30,50)
+Número de genes: 15
+Probabilidade de recombinação: 0.100000
+Número de pontos de recombinação: 3
+Melhor indivíduo: 4.50943    Pior indivíduo: 7.92053    Aptidão média: 4.66134    Desvio padrão: 0.58358
+
+A(0,100) B(30,50)
+Número de genes: 15
+Probabilidade de recombinação: 0.100000
+Número de pontos de recombinação: 5
+Melhor indivíduo: 4.70187    Pior indivíduo: 9.01110    Aptidão média: 4.87967    Desvio padrão: 0.68872
+
+A(0,100) B(30,50)
+Número de genes: 15
+Probabilidade de recombinação: 0.250000
+Número de pontos de recombinação: 1
+Melhor indivíduo: 5.02852    Pior indivíduo: 10.81092    Aptidão média: 5.23207    Desvio padrão: 0.81508
+
+A(0,100) B(30,50)
+Número de genes: 15
+Probabilidade de recombinação: 0.250000
+Número de pontos de recombinação: 3
+Melhor indivíduo: 4.10237    Pior indivíduo: 9.34753    Aptidão média: 4.28882    Desvio padrão: 0.67228
+
+A(0,100) B(30,50)
+Número de genes: 15
+Probabilidade de recombinação: 0.250000
+Número de pontos de recombinação: 5
+Melhor indivíduo: 4.58073    Pior indivíduo: 7.14120    Aptidão média: 4.77572    Desvio padrão: 0.25029
+
+A(0,100) B(30,50)
+Número de genes: 15
+Probabilidade de recombinação: 0.500000
+Número de pontos de recombinação: 1
+Melhor indivíduo: 4.38161    Pior indivíduo: 10.78132    Aptidão média: 4.62347    Desvio padrão: 0.78406
+
+A(0,100) B(30,50)
+Número de genes: 15
+Probabilidade de recombinação: 0.500000
+Número de pontos de recombinação: 3
+Melhor indivíduo: 4.60619    Pior indivíduo: 10.35057    Aptidão média: 4.86160    Desvio padrão: 0.80377
+
+A(0,100) B(30,50)
+Número de genes: 15
+Probabilidade de recombinação: 0.500000
+Número de pontos de recombinação: 5
+Melhor indivíduo: 4.60626    Pior indivíduo: 10.54842    Aptidão média: 4.88988    Desvio padrão: 0.77884
+
+A(0,100) B(30,50)
+Número de genes: 30
+Probabilidade de recombinação: 0.100000
+Número de pontos de recombinação: 1
+Melhor indivíduo: 9.84506    Pior indivíduo: 13.08882    Aptidão média: 10.51516    Desvio padrão: 0.41223
+
+A(0,100) B(30,50)
+Número de genes: 30
+Probabilidade de recombinação: 0.100000
+Número de pontos de recombinação: 3
+Melhor indivíduo: 8.96275    Pior indivíduo: 12.80006    Aptidão média: 9.23969    Desvio padrão: 0.56197
+
+A(0,100) B(30,50)
+Número de genes: 30
+Probabilidade de recombinação: 0.100000
+Número de pontos de recombinação: 5
+Melhor indivíduo: 8.59509    Pior indivíduo: 14.10539    Aptidão média: 8.91085    Desvio padrão: 0.65426
+
+A(0,100) B(30,50)
+Número de genes: 30
+Probabilidade de recombinação: 0.250000
+Número de pontos de recombinação: 1
+Melhor indivíduo: 4.71900    Pior indivíduo: 9.78014    Aptidão média: 4.99905    Desvio padrão: 0.65945
+
+A(0,100) B(30,50)
+Número de genes: 30
+Probabilidade de recombinação: 0.250000
+Número de pontos de recombinação: 3
+Melhor indivíduo: 5.67399    Pior indivíduo: 11.65888    Aptidão média: 6.02447    Desvio padrão: 0.85399
+
+A(0,100) B(30,50)
+Número de genes: 30
+Probabilidade de recombinação: 0.250000
+Número de pontos de recombinação: 5
+Melhor indivíduo: 6.40870    Pior indivíduo: 12.30391    Aptidão média: 6.57334    Desvio padrão: 0.65504
+
+A(0,100) B(30,50)
+Número de genes: 30
+Probabilidade de recombinação: 0.500000
+Número de pontos de recombinação: 1
+Melhor indivíduo: 6.02518    Pior indivíduo: 11.53501    Aptidão média: 6.31080    Desvio padrão: 0.67807
+
+A(0,100) B(30,50)
+Número de genes: 30
+Probabilidade de recombinação: 0.500000
+Número de pontos de recombinação: 3
+Melhor indivíduo: 5.36237    Pior indivíduo: 11.00433    Aptidão média: 5.55795    Desvio padrão: 0.63850
+
+A(0,100) B(30,50)
+Número de genes: 30
+Probabilidade de recombinação: 0.500000
+Número de pontos de recombinação: 5
+Melhor indivíduo: 6.20260    Pior indivíduo: 10.41967    Aptidão média: 6.41979    Desvio padrão: 0.67472
+-----------------------------------------
+
+Pontos A(0,10) B(3,5)
+-----------------------------------------
+
+A(0,10) B(3,5)
+Número de genes: 15
+Probabilidade de recombinação: 0.100000
+Número de pontos de recombinação: 1
+Melhor indivíduo: 1.51192    Pior indivíduo: 2.77531    Aptidão média: 1.57429    Desvio padrão: 0.20826
+
+A(0,10) B(3,5)
+Número de genes: 15
+Probabilidade de recombinação: 0.100000
+Número de pontos de recombinação: 3
+Melhor indivíduo: 1.63153    Pior indivíduo: 3.45565    Aptidão média: 1.68668    Desvio padrão: 0.24987
+
+A(0,10) B(3,5)
+Número de genes: 15
+Probabilidade de recombinação: 0.100000
+Número de pontos de recombinação: 5
+Melhor indivíduo: 1.56229    Pior indivíduo: 3.43229    Aptidão média: 1.62146    Desvio padrão: 0.22344
+
+A(0,10) B(3,5)
+Número de genes: 15
+Probabilidade de recombinação: 0.250000
+Número de pontos de recombinação: 1
+Melhor indivíduo: 1.46647    Pior indivíduo: 3.13194    Aptidão média: 1.52093    Desvio padrão: 0.23553
+
+A(0,10) B(3,5)
+Número de genes: 15
+Probabilidade de recombinação: 0.250000
+Número de pontos de recombinação: 3
+Melhor indivíduo: 1.35809    Pior indivíduo: 2.97518    Aptidão média: 1.43155    Desvio padrão: 0.19697
+
+A(0,10) B(3,5)
+Número de genes: 15
+Probabilidade de recombinação: 0.250000
+Número de pontos de recombinação: 5
+Melhor indivíduo: 1.48140    Pior indivíduo: 3.23800    Aptidão média: 1.52968    Desvio padrão: 0.19091
+
+A(0,10) B(3,5)
+Número de genes: 15
+Probabilidade de recombinação: 0.500000
+Número de pontos de recombinação: 1
+Melhor indivíduo: 1.26927    Pior indivíduo: 2.49959    Aptidão média: 1.32356    Desvio padrão: 0.18346
+
+A(0,10) B(3,5)
+Número de genes: 15
+Probabilidade de recombinação: 0.500000
+Número de pontos de recombinação: 3
+Melhor indivíduo: 1.60002    Pior indivíduo: 2.96519    Aptidão média: 1.66486    Desvio padrão: 0.21245
+
+A(0,10) B(3,5)
+Número de genes: 15
+Probabilidade de recombinação: 0.500000
+Número de pontos de recombinação: 5
+Melhor indivíduo: 1.28274    Pior indivíduo: 2.31362    Aptidão média: 1.31803    Desvio padrão: 0.13548
+
+A(0,10) B(3,5)
+Número de genes: 30
+Probabilidade de recombinação: 0.100000
+Número de pontos de recombinação: 1
+Melhor indivíduo: 2.30050    Pior indivíduo: 3.70246    Aptidão média: 2.39610    Desvio padrão: 0.24304
+
+A(0,10) B(3,5)
+Número de genes: 30
+Probabilidade de recombinação: 0.100000
+Número de pontos de recombinação: 3
+Melhor indivíduo: 2.24597    Pior indivíduo: 4.23918    Aptidão média: 2.34623    Desvio padrão: 0.22716
+
+A(0,10) B(3,5)
+Número de genes: 30
+Probabilidade de recombinação: 0.100000
+Número de pontos de recombinação: 5
+Melhor indivíduo: 2.50277    Pior indivíduo: 4.36255    Aptidão média: 2.56571    Desvio padrão: 0.18564
+
+A(0,10) B(3,5)
+Número de genes: 30
+Probabilidade de recombinação: 0.250000
+Número de pontos de recombinação: 1
+Melhor indivíduo: 2.13133    Pior indivíduo: 3.49819    Aptidão média: 2.22072    Desvio padrão: 0.21274
+
+A(0,10) B(3,5)
+Número de genes: 30
+Probabilidade de recombinação: 0.250000
+Número de pontos de recombinação: 3
+Melhor indivíduo: 2.30033    Pior indivíduo: 4.06513    Aptidão média: 2.40981    Desvio padrão: 0.21736
+
+A(0,10) B(3,5)
+Número de genes: 30
+Probabilidade de recombinação: 0.250000
+Número de pontos de recombinação: 5
+Melhor indivíduo: 1.93874    Pior indivíduo: 4.25599    Aptidão média: 2.04723    Desvio padrão: 0.28905
+
+A(0,10) B(3,5)
+Número de genes: 30
+Probabilidade de recombinação: 0.500000
+Número de pontos de recombinação: 1
+Melhor indivíduo: 1.90058    Pior indivíduo: 4.04592    Aptidão média: 1.96371    Desvio padrão: 0.24207
+
+A(0,10) B(3,5)
+Número de genes: 30
+Probabilidade de recombinação: 0.500000
+Número de pontos de recombinação: 3
+Melhor indivíduo: 2.50687    Pior indivíduo: 4.32119    Aptidão média: 2.55106    Desvio padrão: 0.21312
+
+A(0,10) B(3,5)
+Número de genes: 30
+Probabilidade de recombinação: 0.500000
+Número de pontos de recombinação: 5
+Melhor indivíduo: 1.77895    Pior indivíduo: 3.29708    Aptidão média: 1.88308    Desvio padrão: 0.21015
+-----------------------------------------
+
+Pontos A(10,100) B(20,10)
+-----------------------------------------
+
+A(10,100) B(20,10)
+Número de genes: 15
+Probabilidade de recombinação: 0.100000
+Número de pontos de recombinação: 1
+Melhor indivíduo: 4.32475    Pior indivíduo: 8.34941    Aptidão média: 4.52697    Desvio padrão: 0.72410
+
+A(10,100) B(20,10)
+Número de genes: 15
+Probabilidade de recombinação: 0.100000
+Número de pontos de recombinação: 3
+Melhor indivíduo: 4.38507    Pior indivíduo: 9.56570    Aptidão média: 4.55943    Desvio padrão: 0.67866
+
+A(10,100) B(20,10)
+Número de genes: 15
+Probabilidade de recombinação: 0.100000
+Número de pontos de recombinação: 5
+Melhor indivíduo: 4.31131    Pior indivíduo: 10.24702    Aptidão média: 4.51731    Desvio padrão: 0.74325
+
+A(10,100) B(20,10)
+Número de genes: 15
+Probabilidade de recombinação: 0.250000
+Número de pontos de recombinação: 1
+Melhor indivíduo: 4.48809    Pior indivíduo: 10.53350    Aptidão média: 4.76358    Desvio padrão: 0.86182
+
+A(10,100) B(20,10)
+Número de genes: 15
+Probabilidade de recombinação: 0.250000
+Número de pontos de recombinação: 3
+Melhor indivíduo: 4.43603    Pior indivíduo: 9.17168    Aptidão média: 4.71444    Desvio padrão: 0.63843
+
+A(10,100) B(20,10)
+Número de genes: 15
+Probabilidade de recombinação: 0.250000
+Número de pontos de recombinação: 5
+Melhor indivíduo: 4.67901    Pior indivíduo: 12.26379    Aptidão média: 4.94138    Desvio padrão: 1.01875
+
+A(10,100) B(20,10)
+Número de genes: 15
+Probabilidade de recombinação: 0.500000
+Número de pontos de recombinação: 1
+Melhor indivíduo: 4.32165    Pior indivíduo: 10.36184    Aptidão média: 4.52678    Desvio padrão: 0.82049
+
+A(10,100) B(20,10)
+Número de genes: 15
+Probabilidade de recombinação: 0.500000
+Número de pontos de recombinação: 3
+Melhor indivíduo: 4.30684    Pior indivíduo: 8.49276    Aptidão média: 4.41102    Desvio padrão: 0.44285
+
+A(10,100) B(20,10)
+Número de genes: 15
+Probabilidade de recombinação: 0.500000
+Número de pontos de recombinação: 5
+Melhor indivíduo: 4.33453    Pior indivíduo: 10.14061    Aptidão média: 4.51937    Desvio padrão: 0.77219
+
+A(10,100) B(20,10)
+Número de genes: 30
+Probabilidade de recombinação: 0.100000
+Número de pontos de recombinação: 1
+Melhor indivíduo: 7.92994    Pior indivíduo: 14.51301    Aptidão média: 8.57727    Desvio padrão: 0.87674
+
+A(10,100) B(20,10)
+Número de genes: 30
+Probabilidade de recombinação: 0.100000
+Número de pontos de recombinação: 3
+Melhor indivíduo: 5.99496    Pior indivíduo: 11.05378    Aptidão média: 6.25261    Desvio padrão: 0.68339
+
+A(10,100) B(20,10)
+Número de genes: 30
+Probabilidade de recombinação: 0.100000
+Número de pontos de recombinação: 5
+Melhor indivíduo: 7.99150    Pior indivíduo: 11.96024    Aptidão média: 8.26129    Desvio padrão: 0.48592
+
+A(10,100) B(20,10)
+Número de genes: 30
+Probabilidade de recombinação: 0.250000
+Número de pontos de recombinação: 1
+Melhor indivíduo: 7.82470    Pior indivíduo: 13.66612    Aptidão média: 8.06569    Desvio padrão: 0.75237
+
+A(10,100) B(20,10)
+Número de genes: 30
+Probabilidade de recombinação: 0.250000
+Número de pontos de recombinação: 3
+Melhor indivíduo: 6.22583    Pior indivíduo: 12.54091    Aptidão média: 6.45622    Desvio padrão: 0.67336
+
+A(10,100) B(20,10)
+Número de genes: 30
+Probabilidade de recombinação: 0.250000
+Número de pontos de recombinação: 5
+Melhor indivíduo: 6.58634    Pior indivíduo: 10.43176    Aptidão média: 6.75605    Desvio padrão: 0.50357
+
+A(10,100) B(20,10)
+Número de genes: 30
+Probabilidade de recombinação: 0.500000
+Número de pontos de recombinação: 1
+Melhor indivíduo: 5.94900    Pior indivíduo: 12.69717    Aptidão média: 6.46478    Desvio padrão: 1.10293
+
+A(10,100) B(20,10)
+Número de genes: 30
+Probabilidade de recombinação: 0.500000
+Número de pontos de recombinação: 3
+Melhor indivíduo: 6.32685    Pior indivíduo: 13.04701    Aptidão média: 6.62470    Desvio padrão: 0.73573
+
+A(10,100) B(20,10)
+Número de genes: 30
+Probabilidade de recombinação: 0.500000
+Número de pontos de recombinação: 5
+Melhor indivíduo: 5.75763    Pior indivíduo: 11.12659    Aptidão média: 6.02651    Desvio padrão: 0.86057
+-----------------------------------------
+
+Pontos A(0,20) B(100,10)
+-----------------------------------------
+
+A(0,20) B(100,10)
+Número de genes: 15
+Probabilidade de recombinação: 0.100000
+Número de pontos de recombinação: 1
+Melhor indivíduo: 7.19698    Pior indivíduo: 9.72653    Aptidão média: 7.29494    Desvio padrão: 0.30987
+
+A(0,20) B(100,10)
+Número de genes: 15
+Probabilidade de recombinação: 0.100000
+Número de pontos de recombinação: 3
+Melhor indivíduo: 7.23607    Pior indivíduo: 10.07855    Aptidão média: 7.32226    Desvio padrão: 0.31333
+
+A(0,20) B(100,10)
+Número de genes: 15
+Probabilidade de recombinação: 0.100000
+Número de pontos de recombinação: 5
+Melhor indivíduo: 7.25171    Pior indivíduo: 8.96063    Aptidão média: 7.29899    Desvio padrão: 0.16501
+
+A(0,20) B(100,10)
+Número de genes: 15
+Probabilidade de recombinação: 0.250000
+Número de pontos de recombinação: 1
+Melhor indivíduo: 7.13842    Pior indivíduo: 9.56231    Aptidão média: 7.20976    Desvio padrão: 0.23970
+
+A(0,20) B(100,10)
+Número de genes: 15
+Probabilidade de recombinação: 0.250000
+Número de pontos de recombinação: 3
+Melhor indivíduo: 7.02668    Pior indivíduo: 9.76570    Aptidão média: 7.09052    Desvio padrão: 0.31083
+
+A(0,20) B(100,10)
+Número de genes: 15
+Probabilidade de recombinação: 0.250000
+Número de pontos de recombinação: 5
+Melhor indivíduo: 7.17249    Pior indivíduo: 8.61263    Aptidão média: 7.23927    Desvio padrão: 0.22999
+
+A(0,20) B(100,10)
+Número de genes: 15
+Probabilidade de recombinação: 0.500000
+Número de pontos de recombinação: 1
+Melhor indivíduo: 7.09143    Pior indivíduo: 8.66915    Aptidão média: 7.12907    Desvio padrão: 0.16143
+
+A(0,20) B(100,10)
+Número de genes: 15
+Probabilidade de recombinação: 0.500000
+Número de pontos de recombinação: 3
+Melhor indivíduo: 7.06982    Pior indivíduo: 9.16386    Aptidão média: 7.13637    Desvio padrão: 0.28727
+
+A(0,20) B(100,10)
+Número de genes: 15
+Probabilidade de recombinação: 0.500000
+Número de pontos de recombinação: 5
+Melhor indivíduo: 7.09479    Pior indivíduo: 9.42402    Aptidão média: 7.15093    Desvio padrão: 0.28927
+
+A(0,20) B(100,10)
+Número de genes: 30
+Probabilidade de recombinação: 0.100000
+Número de pontos de recombinação: 1
+Melhor indivíduo: 7.79394    Pior indivíduo: 9.61864    Aptidão média: 7.89204    Desvio padrão: 0.28087
+
+A(0,20) B(100,10)
+Número de genes: 30
+Probabilidade de recombinação: 0.100000
+Número de pontos de recombinação: 3
+Melhor indivíduo: 7.74889    Pior indivíduo: 9.68108    Aptidão média: 7.87422    Desvio padrão: 0.24767
+
+A(0,20) B(100,10)
+Número de genes: 30
+Probabilidade de recombinação: 0.100000
+Número de pontos de recombinação: 5
+Melhor indivíduo: 7.99724    Pior indivíduo: 10.57940    Aptidão média: 8.14370    Desvio padrão: 0.35042
+
+A(0,20) B(100,10)
+Número de genes: 30
+Probabilidade de recombinação: 0.250000
+Número de pontos de recombinação: 1
+Melhor indivíduo: 8.18423    Pior indivíduo: 9.46513    Aptidão média: 8.33887    Desvio padrão: 0.15118
+
+A(0,20) B(100,10)
+Número de genes: 30
+Probabilidade de recombinação: 0.250000
+Número de pontos de recombinação: 3
+Melhor indivíduo: 7.63556    Pior indivíduo: 9.80036    Aptidão média: 7.76772    Desvio padrão: 0.35822
+
+A(0,20) B(100,10)
+Número de genes: 30
+Probabilidade de recombinação: 0.250000
+Número de pontos de recombinação: 5
+Melhor indivíduo: 7.66696    Pior indivíduo: 10.30595    Aptidão média: 7.80986    Desvio padrão: 0.34342
+
+A(0,20) B(100,10)
+Número de genes: 30
+Probabilidade de recombinação: 0.500000
+Número de pontos de recombinação: 1
+Melhor indivíduo: 7.67870    Pior indivíduo: 10.29532    Aptidão média: 7.74123    Desvio padrão: 0.26377
+
+A(0,20) B(100,10)
+Número de genes: 30
+Probabilidade de recombinação: 0.500000
+Número de pontos de recombinação: 3
+Melhor indivíduo: 7.43426    Pior indivíduo: 10.51536    Aptidão média: 7.53793    Desvio padrão: 0.40198
+
+A(0,20) B(100,10)
+Número de genes: 30
+Probabilidade de recombinação: 0.500000
+Número de pontos de recombinação: 5
+Melhor indivíduo: 7.39693    Pior indivíduo: 9.70985    Aptidão média: 7.48514    Desvio padrão: 0.33326
+-----------------------------------------
