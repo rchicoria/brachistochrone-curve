@@ -34,3 +34,29 @@ Quanto maior for o número de indivíduos de uma população, melhor é a sua ap
 tal como se verificou anteriormente, as populações de indivíduos com um número de genes menor
 converger muito mais rapidamente para um máximo, ou seja, o efeito do número de indivíduos dessa
 população é minorado.
+
+
+Tabela A.2.1
+
+Para os valores registados:
+
+Quanto maior a probabilidade de recombinação melhor a aptidão e menor o desvio padrão. Este resultado é esperado porque são gerados mais índividuos novos e o processo evolutivo é mais rápido.
+
+Para valores maiores do torneio há uma tendência para um desvio padrão menor. Quanto maior o tamanho do torneio mais probabilidade há de se seleccionar os individuos com melhor aptidão o que faz com que as próximas gerações fiquem com muitos indíviduos semelhantes ou até iguais.
+
+Nota-se que o desvio padrão da roleta é muito superior ao do torneio e muitas vezes as aptidões são piores. Assim se pode concluir que converge mais lentamente. Isso é explicado pelo facto das aptidões dos indíviduos serem muito semelhantes, logo a probabilidade de escolher um bom indíviduo é praticamente a mesma de escolher um pior índividuo o que vai levar que a selecção seja mais aleatória e menos baseada no mérito.
+
+Para uma probabilidade de mutação maior a convergência não se dá tão facilmente. As aptidões e desvio padrão têm tendência para melhorar. Isto é explicado pelo facto da mutação trazer mais aleatoriedade à criação de novos individuos, o que traz também uma maior capacidade de fugir a um máximo local. Como na recombinação não se criam genes novos é mais fácil convergir para um máximo local.
+A mutação cria maior diversidade de indíviduos (desvio padrão) e mais capazes (aptidão)
+
+
+Tabela A.3.1
+
+Não parece haver uma relacção directa entre a probabilidade  de recombinação e o número de pontos de recombinação.
+
+
+
+Sem elitismo
+
+Nos melhores indíviduos não se nota grande diferença, apesar de haver uma pequena melhoria com elitismo.
+O que realmente salta à vista são os piores indíviduos que têm aptidões muito piores sem elitismo. Isto deve-se ao facto de os piores indíviduos de uma geração não serem automaticamente substituídos pelos melhores indíviduos da geração anterior.
