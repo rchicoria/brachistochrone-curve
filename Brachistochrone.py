@@ -41,7 +41,7 @@ def grafico_curva(curva, data):
 	xlabel('x')
 	title('Melhor curva braquistocrona gerada')
 	plot(x, y, 'r')
-	savefig("testes/"+data+" curva.png")
+	savefig("resultados/graficos/"+data+" curva.png")
 
 # mostra a evolução da população
 def grafico_geracoes(dadosgeracoes, data):
@@ -55,7 +55,7 @@ def grafico_geracoes(dadosgeracoes, data):
 	xlabel('Geracoes')
 	title('Aptidoes ao longo das geracoes')
 	plot(x, melhor, 'g', x, pior, 'r', x, media, 'b', x, dp, 'y')
-	savefig("testes/"+data+" aptidao.png")
+	savefig("resultados/graficos/"+data+" aptidao.png")
 
 # mostra uma percentagem com base num número decimal
 def percentagem(numero):
@@ -233,16 +233,16 @@ def run(x1, y1, x2, y2, ngeracoes, nindividuos, ngenes, tamanho_torneio, nrecomb
 		output.append( "Desvio padrão: %f\n" % (dp) )
 		dadosgeracoes.append([valores[0], valores[-1], media, dp])
 		
-	"""grafico_geracoes(dadosgeracoes, data)
+	grafico_geracoes(dadosgeracoes, data)
 	grafico_curva(populacao[0][0], data)
-	#sys.stdout.write("Aptidão do melhor indivíduo: %f\n" % (populacao[0][1]))
+	sys.stdout.write("Aptidão do melhor indivíduo: %f\n" % (populacao[0][1]))
 	output.append( "\nNúmero de recombinações: %d\n" % (nrecombinacoes) )
 	output.append( "Número de mutações: %d\n" % (nmutacoes) )
 	
-	# guarda os resultados num ficheiro
-	f = open("testes/"+data+".txt", "w")
+	#guarda os resultados num ficheiro
+	f = open("resultados/"+data+".txt", "w")
 	f.writelines(output)
-	f.close()"""
+	f.close()
 	
 	return [valores[0], valores[-1], media, dp]
 

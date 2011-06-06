@@ -1,8 +1,8 @@
 ﻿Trabalho Prático Nº2: Curva Braquistócrona
 Ficheiro de configuração
 
-Ponto A = (0,20)
-Ponto B = (100,10)
+Ponto A = (0,100)
+Ponto B = (30,50)
 Número de gerações = 100
 Número de indivíduos = 200
 Número de genes = 15
