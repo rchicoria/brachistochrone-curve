@@ -1,0 +1,620 @@
+
+Resultados do teste ocorrido a 06-06-2011 - 03h 55m 56s:
+
+Dados:
+ponto A = (0,20)
+ponto B = (100,10)
+Número de gerações = 100
+Número de indivíduos = 200
+Número de genes = 15
+Tamanho do torneio = 2
+Número de pontos de recombinação = 5
+Probabilidade de recombinação = 50%
+Probabilidade de mutação = 10%
+Tamanho da elite = 10%
+Representação (abcissas fixas ou dinâmicas): fixas
+
+Resultados:
+
+Geração 1
+Melhor descendente: 8.973107
+Pior descendente: 19.084906
+Aptidão média: 12.010171
+Desvio padrão: 1.329492
+
+Geração 2
+Melhor descendente: 8.728932
+Pior descendente: 12.662624
+Aptidão média: 10.931461
+Desvio padrão: 0.932683
+
+Geração 3
+Melhor descendente: 8.330170
+Pior descendente: 11.492450
+Aptidão média: 10.126445
+Desvio padrão: 0.698264
+
+Geração 4
+Melhor descendente: 8.216167
+Pior descendente: 10.666287
+Aptidão média: 9.632053
+Desvio padrão: 0.499415
+
+Geração 5
+Melhor descendente: 8.216167
+Pior descendente: 9.906021
+Aptidão média: 9.224247
+Desvio padrão: 0.375235
+
+Geração 6
+Melhor descendente: 7.867657
+Pior descendente: 9.637945
+Aptidão média: 8.958562
+Desvio padrão: 0.386650
+
+Geração 7
+Melhor descendente: 7.867657
+Pior descendente: 9.224511
+Aptidão média: 8.586962
+Desvio padrão: 0.325456
+
+Geração 8
+Melhor descendente: 7.633679
+Pior descendente: 8.819963
+Aptidão média: 8.340886
+Desvio padrão: 0.261986
+
+Geração 9
+Melhor descendente: 7.633679
+Pior descendente: 8.527800
+Aptidão média: 8.130943
+Desvio padrão: 0.207620
+
+Geração 10
+Melhor descendente: 7.633679
+Pior descendente: 8.341762
+Aptidão média: 7.998618
+Desvio padrão: 0.173167
+
+Geração 11
+Melhor descendente: 7.633679
+Pior descendente: 8.170255
+Aptidão média: 7.858723
+Desvio padrão: 0.135472
+
+Geração 12
+Melhor descendente: 7.501757
+Pior descendente: 7.955544
+Aptidão média: 7.759370
+Desvio padrão: 0.098527
+
+Geração 13
+Melhor descendente: 7.494376
+Pior descendente: 7.867657
+Aptidão média: 7.683796
+Desvio padrão: 0.081051
+
+Geração 14
+Melhor descendente: 7.492265
+Pior descendente: 7.776586
+Aptidão média: 7.619221
+Desvio padrão: 0.068891
+
+Geração 15
+Melhor descendente: 7.457533
+Pior descendente: 7.726327
+Aptidão média: 7.572162
+Desvio padrão: 0.062731
+
+Geração 16
+Melhor descendente: 7.457533
+Pior descendente: 7.633679
+Aptidão média: 7.528604
+Desvio padrão: 0.041169
+
+Geração 17
+Melhor descendente: 7.366262
+Pior descendente: 7.601978
+Aptidão média: 7.507496
+Desvio padrão: 0.026494
+
+Geração 18
+Melhor descendente: 7.349444
+Pior descendente: 7.609516
+Aptidão média: 7.496664
+Desvio padrão: 0.026338
+
+Geração 19
+Melhor descendente: 7.349256
+Pior descendente: 7.559170
+Aptidão média: 7.482082
+Desvio padrão: 0.037199
+
+Geração 20
+Melhor descendente: 7.314536
+Pior descendente: 7.516862
+Aptidão média: 7.455275
+Desvio padrão: 0.052576
+
+Geração 21
+Melhor descendente: 7.286740
+Pior descendente: 7.509083
+Aptidão média: 7.416639
+Desvio padrão: 0.062505
+
+Geração 22
+Melhor descendente: 7.286740
+Pior descendente: 7.491060
+Aptidão média: 7.376282
+Desvio padrão: 0.051110
+
+Geração 23
+Melhor descendente: 7.286740
+Pior descendente: 7.451007
+Aptidão média: 7.343904
+Desvio padrão: 0.028117
+
+Geração 24
+Melhor descendente: 7.286664
+Pior descendente: 7.366262
+Aptidão média: 7.326104
+Desvio padrão: 0.023349
+
+Geração 25
+Melhor descendente: 7.252010
+Pior descendente: 7.366914
+Aptidão média: 7.310722
+Desvio padrão: 0.023714
+
+Geração 26
+Melhor descendente: 7.252010
+Pior descendente: 7.366914
+Aptidão média: 7.298309
+Desvio padrão: 0.020122
+
+Geração 27
+Melhor descendente: 7.252010
+Pior descendente: 7.321572
+Aptidão média: 7.287227
+Desvio padrão: 0.011759
+
+Geração 28
+Melhor descendente: 7.245059
+Pior descendente: 7.304397
+Aptidão média: 7.280790
+Desvio padrão: 0.013229
+
+Geração 29
+Melhor descendente: 7.245059
+Pior descendente: 7.303558
+Aptidão média: 7.272315
+Desvio padrão: 0.015149
+
+Geração 30
+Melhor descendente: 7.235338
+Pior descendente: 7.322224
+Aptidão média: 7.265737
+Desvio padrão: 0.015954
+
+Geração 31
+Melhor descendente: 7.221484
+Pior descendente: 7.286740
+Aptidão média: 7.257068
+Desvio padrão: 0.011829
+
+Geração 32
+Melhor descendente: 7.219108
+Pior descendente: 7.302179
+Aptidão média: 7.250697
+Desvio padrão: 0.011905
+
+Geração 33
+Melhor descendente: 7.218621
+Pior descendente: 7.254873
+Aptidão média: 7.243473
+Desvio padrão: 0.009308
+
+Geração 34
+Melhor descendente: 7.210736
+Pior descendente: 7.259080
+Aptidão média: 7.236749
+Desvio padrão: 0.010675
+
+Geração 35
+Melhor descendente: 7.210736
+Pior descendente: 7.252010
+Aptidão média: 7.229993
+Desvio padrão: 0.009415
+
+Geração 36
+Melhor descendente: 7.210736
+Pior descendente: 7.236131
+Aptidão média: 7.222685
+Desvio padrão: 0.007084
+
+Geração 37
+Melhor descendente: 7.191332
+Pior descendente: 7.239637
+Aptidão média: 7.219226
+Desvio padrão: 0.005993
+
+Geração 38
+Melhor descendente: 7.191332
+Pior descendente: 7.235338
+Aptidão média: 7.216180
+Desvio padrão: 0.005264
+
+Geração 39
+Melhor descendente: 7.183447
+Pior descendente: 7.219108
+Aptidão média: 7.213023
+Desvio padrão: 0.006869
+
+Geração 40
+Melhor descendente: 7.177558
+Pior descendente: 7.218621
+Aptidão média: 7.208558
+Desvio padrão: 0.009154
+
+Geração 41
+Melhor descendente: 7.169881
+Pior descendente: 7.221484
+Aptidão média: 7.201081
+Desvio padrão: 0.011211
+
+Geração 42
+Melhor descendente: 7.169673
+Pior descendente: 7.218621
+Aptidão média: 7.194552
+Desvio padrão: 0.011578
+
+Geração 43
+Melhor descendente: 7.169673
+Pior descendente: 7.279787
+Aptidão média: 7.188121
+Desvio padrão: 0.013125
+
+Geração 44
+Melhor descendente: 7.159855
+Pior descendente: 7.201573
+Aptidão média: 7.181860
+Desvio padrão: 0.006097
+
+Geração 45
+Melhor descendente: 7.159855
+Pior descendente: 7.208217
+Aptidão média: 7.179241
+Desvio padrão: 0.007108
+
+Geração 46
+Melhor descendente: 7.159824
+Pior descendente: 7.191322
+Aptidão média: 7.174190
+Desvio padrão: 0.006363
+
+Geração 47
+Melhor descendente: 7.137397
+Pior descendente: 7.194474
+Aptidão média: 7.171119
+Desvio padrão: 0.007686
+
+Geração 48
+Melhor descendente: 7.126201
+Pior descendente: 7.177227
+Aptidão média: 7.164579
+Desvio padrão: 0.007287
+
+Geração 49
+Melhor descendente: 7.123633
+Pior descendente: 7.169881
+Aptidão média: 7.159508
+Desvio padrão: 0.009069
+
+Geração 50
+Melhor descendente: 7.096004
+Pior descendente: 7.177710
+Aptidão média: 7.153502
+Desvio padrão: 0.011860
+
+Geração 51
+Melhor descendente: 7.090318
+Pior descendente: 7.177240
+Aptidão média: 7.147489
+Desvio padrão: 0.014064
+
+Geração 52
+Melhor descendente: 7.090318
+Pior descendente: 7.163684
+Aptidão média: 7.138294
+Desvio padrão: 0.013039
+
+Geração 53
+Melhor descendente: 7.090318
+Pior descendente: 7.159896
+Aptidão média: 7.130048
+Desvio padrão: 0.011075
+
+Geração 54
+Melhor descendente: 7.089882
+Pior descendente: 7.150493
+Aptidão média: 7.123737
+Desvio padrão: 0.010855
+
+Geração 55
+Melhor descendente: 7.089102
+Pior descendente: 7.129576
+Aptidão média: 7.117785
+Desvio padrão: 0.012379
+
+Geração 56
+Melhor descendente: 7.088876
+Pior descendente: 7.129576
+Aptidão média: 7.109713
+Desvio padrão: 0.015572
+
+Geração 57
+Melhor descendente: 7.088876
+Pior descendente: 7.124280
+Aptidão média: 7.099096
+Desvio padrão: 0.013929
+
+Geração 58
+Melhor descendente: 7.088832
+Pior descendente: 7.123633
+Aptidão média: 7.092445
+Desvio padrão: 0.008045
+
+Geração 59
+Melhor descendente: 7.075276
+Pior descendente: 7.131667
+Aptidão média: 7.089947
+Desvio padrão: 0.004335
+
+Geração 60
+Melhor descendente: 7.075276
+Pior descendente: 7.218329
+Aptidão média: 7.090640
+Desvio padrão: 0.011507
+
+Geração 61
+Melhor descendente: 7.075276
+Pior descendente: 7.089980
+Aptidão média: 7.088758
+Desvio padrão: 0.001387
+
+Geração 62
+Melhor descendente: 7.074762
+Pior descendente: 7.089346
+Aptidão média: 7.088234
+Desvio padrão: 0.002565
+
+Geração 63
+Melhor descendente: 7.074762
+Pior descendente: 7.089102
+Aptidão média: 7.087246
+Desvio padrão: 0.003661
+
+Geração 64
+Melhor descendente: 7.074664
+Pior descendente: 7.113452
+Aptidão média: 7.084661
+Desvio padrão: 0.006117
+
+Geração 65
+Melhor descendente: 7.053923
+Pior descendente: 7.088876
+Aptidão média: 7.080622
+Desvio padrão: 0.006234
+
+Geração 66
+Melhor descendente: 7.053409
+Pior descendente: 7.088588
+Aptidão média: 7.076877
+Desvio padrão: 0.005652
+
+Geração 67
+Melhor descendente: 7.053409
+Pior descendente: 7.119111
+Aptidão média: 7.074097
+Desvio padrão: 0.006523
+
+Geração 68
+Melhor descendente: 7.052429
+Pior descendente: 7.075645
+Aptidão média: 7.069906
+Desvio padrão: 0.008470
+
+Geração 69
+Melhor descendente: 7.051802
+Pior descendente: 7.080818
+Aptidão média: 7.065285
+Desvio padrão: 0.010181
+
+Geração 70
+Melhor descendente: 7.051802
+Pior descendente: 7.075276
+Aptidão média: 7.059180
+Desvio padrão: 0.008887
+
+Geração 71
+Melhor descendente: 7.051802
+Pior descendente: 7.074762
+Aptidão média: 7.054674
+Desvio padrão: 0.004927
+
+Geração 72
+Melhor descendente: 7.051802
+Pior descendente: 7.131479
+Aptidão média: 7.054027
+Desvio padrão: 0.008624
+
+Geração 73
+Melhor descendente: 7.051162
+Pior descendente: 7.053409
+Aptidão média: 7.052275
+Desvio padrão: 0.000638
+
+Geração 74
+Melhor descendente: 7.051162
+Pior descendente: 7.056255
+Aptidão média: 7.051947
+Desvio padrão: 0.000457
+
+Geração 75
+Melhor descendente: 7.047077
+Pior descendente: 7.053590
+Aptidão média: 7.051777
+Desvio padrão: 0.000408
+
+Geração 76
+Melhor descendente: 7.047022
+Pior descendente: 7.051802
+Aptidão média: 7.051673
+Desvio padrão: 0.000509
+
+Geração 77
+Melhor descendente: 7.046067
+Pior descendente: 7.094974
+Aptidão média: 7.051891
+Desvio padrão: 0.004096
+
+Geração 78
+Melhor descendente: 7.046067
+Pior descendente: 7.051802
+Aptidão média: 7.050942
+Desvio padrão: 0.001437
+
+Geração 79
+Melhor descendente: 7.041658
+Pior descendente: 7.262911
+Aptidão média: 7.052062
+Desvio padrão: 0.017457
+
+Geração 80
+Melhor descendente: 7.041287
+Pior descendente: 7.051802
+Aptidão média: 7.048787
+Desvio padrão: 0.002510
+
+Geração 81
+Melhor descendente: 7.041287
+Pior descendente: 7.051802
+Aptidão média: 7.047229
+Desvio padrão: 0.002429
+
+Geração 82
+Melhor descendente: 7.039978
+Pior descendente: 7.051802
+Aptidão média: 7.045705
+Desvio padrão: 0.002427
+
+Geração 83
+Melhor descendente: 7.039978
+Pior descendente: 7.047022
+Aptidão média: 7.043822
+Desvio padrão: 0.002459
+
+Geração 84
+Melhor descendente: 7.035718
+Pior descendente: 7.047077
+Aptidão média: 7.042041
+Desvio padrão: 0.002091
+
+Geração 85
+Melhor descendente: 7.035718
+Pior descendente: 7.085518
+Aptidão média: 7.041263
+Desvio padrão: 0.003392
+
+Geração 86
+Melhor descendente: 7.035718
+Pior descendente: 7.041658
+Aptidão média: 7.040383
+Desvio padrão: 0.001058
+
+Geração 87
+Melhor descendente: 7.034409
+Pior descendente: 7.041287
+Aptidão média: 7.039633
+Desvio padrão: 0.001378
+
+Geração 88
+Melhor descendente: 7.034409
+Pior descendente: 7.041287
+Aptidão média: 7.038716
+Desvio padrão: 0.001845
+
+Geração 89
+Melhor descendente: 7.034409
+Pior descendente: 7.040648
+Aptidão média: 7.037463
+Desvio padrão: 0.002177
+
+Geração 90
+Melhor descendente: 7.034409
+Pior descendente: 7.048381
+Aptidão média: 7.036346
+Desvio padrão: 0.002360
+
+Geração 91
+Melhor descendente: 7.029817
+Pior descendente: 7.039339
+Aptidão média: 7.035085
+Desvio padrão: 0.001200
+
+Geração 92
+Melhor descendente: 7.029817
+Pior descendente: 7.035718
+Aptidão média: 7.034432
+Desvio padrão: 0.000839
+
+Geração 93
+Melhor descendente: 7.029817
+Pior descendente: 7.034409
+Aptidão média: 7.033984
+Desvio padrão: 0.001311
+
+Geração 94
+Melhor descendente: 7.029506
+Pior descendente: 7.034409
+Aptidão média: 7.033224
+Desvio padrão: 0.001984
+
+Geração 95
+Melhor descendente: 7.026664
+Pior descendente: 7.034409
+Aptidão média: 7.031844
+Desvio padrão: 0.002297
+
+Geração 96
+Melhor descendente: 7.026664
+Pior descendente: 7.253149
+Aptidão média: 7.036228
+Desvio padrão: 0.032099
+
+Geração 97
+Melhor descendente: 7.026664
+Pior descendente: 7.034409
+Aptidão média: 7.029999
+Desvio padrão: 0.001074
+
+Geração 98
+Melhor descendente: 7.026314
+Pior descendente: 7.029817
+Aptidão média: 7.029657
+Desvio padrão: 0.000415
+
+Geração 99
+Melhor descendente: 7.026314
+Pior descendente: 7.038524
+Aptidão média: 7.029525
+Desvio padrão: 0.000895
+
+Geração 100
+Melhor descendente: 7.025246
+Pior descendente: 7.029817
+Aptidão média: 7.029255
+Desvio padrão: 0.000875
+
+Número de recombinações: 9888
+Número de mutações: 1992
