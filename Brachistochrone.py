@@ -18,8 +18,10 @@ Requisitos do sistema:
 Ficheiros/directorias necessários:
 - Brachistochrone.py
 - BrachFitness.py
+- Testes.py
 - conf.txt
 - testes (directoria)
+- resultados (directoria)
 
 Autores:
 João Claro
